@@ -1,0 +1,27 @@
+Dejan Mikulinjak
+Dijagrami aktivnosti + opis:
+Era model (MySQL Workbenchu)
+Opis dizajna sustava (poželjno prema IEEE Std 1016-2009, Software Design Descriptions)
+
+Nikola Saèiæ
+Dijagrami aktivnosti + opis:
+Specifikacija zahtjeva (obvezno prema IEEE Std 830-1998, Software Requirements Specifications)
+
+Mirko Nuli
+Dijagrami aktivnosti + opis:
+Ponuda naruèitelju
+
+Bernarda Matkoviæ
+Dijagram klasa
+Use case dijagram
+Projektni plan (obavezno koristiti fazni pristup razvoja softvera, uz vlastiti izbor modela)
+Terminski plan projekta
+Podaci o provedbi projekta
+
+Monika Matak
+Dijagrami aktivnosti + opis:
+Definiran projektni tim
+Podaci o angažmanu èlanova tima
+Proraèun i budžet projekta
+
+Napomena: svi èlanovi tima sudjelovali su u izradi svih dijagrama dok se podjela posla odnosi na izradu dijagrama u digitalnome obliku.
