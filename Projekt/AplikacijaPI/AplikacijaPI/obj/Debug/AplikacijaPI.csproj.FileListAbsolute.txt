@@ -1,0 +1,9 @@
+D:\---faks---\6.SEMESTAR\PI-Programsko inženjerstvo\programi\program\AplikacijaPI\AplikacijaPI\bin\Debug\AplikacijaPI.exe.config
+D:\---faks---\6.SEMESTAR\PI-Programsko inženjerstvo\programi\program\AplikacijaPI\AplikacijaPI\bin\Debug\AplikacijaPI.exe
+D:\---faks---\6.SEMESTAR\PI-Programsko inženjerstvo\programi\program\AplikacijaPI\AplikacijaPI\bin\Debug\AplikacijaPI.pdb
+D:\---faks---\6.SEMESTAR\PI-Programsko inženjerstvo\programi\program\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.csprojResolveAssemblyReference.cache
+D:\---faks---\6.SEMESTAR\PI-Programsko inženjerstvo\programi\program\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.FrmLogin.resources
+D:\---faks---\6.SEMESTAR\PI-Programsko inženjerstvo\programi\program\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.Properties.Resources.resources
+D:\---faks---\6.SEMESTAR\PI-Programsko inženjerstvo\programi\program\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.csproj.GenerateResource.Cache
+D:\---faks---\6.SEMESTAR\PI-Programsko inženjerstvo\programi\program\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.exe
+D:\---faks---\6.SEMESTAR\PI-Programsko inženjerstvo\programi\program\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.pdb
