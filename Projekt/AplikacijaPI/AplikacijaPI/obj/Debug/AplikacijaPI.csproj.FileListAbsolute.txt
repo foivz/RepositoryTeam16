@@ -7,3 +7,6 @@ D:\---faks---\6.SEMESTAR\PI-Programsko inženjerstvo\programi\program\Aplikacija
 D:\---faks---\6.SEMESTAR\PI-Programsko inženjerstvo\programi\program\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.csproj.GenerateResource.Cache
 D:\---faks---\6.SEMESTAR\PI-Programsko inženjerstvo\programi\program\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.exe
 D:\---faks---\6.SEMESTAR\PI-Programsko inženjerstvo\programi\program\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.pdb
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\AplikacijaPI\AplikacijaPI\bin\Debug\AplikacijaPI.exe.config
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.exe
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.pdb
