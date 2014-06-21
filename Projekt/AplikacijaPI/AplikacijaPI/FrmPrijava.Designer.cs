@@ -32,6 +32,7 @@
             this.txtKorIme = new System.Windows.Forms.TextBox();
             this.lblLoz = new System.Windows.Forms.Label();
             this.txtLoz = new System.Windows.Forms.TextBox();
+            this.btn1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblKorIme
@@ -67,11 +68,22 @@
             this.txtLoz.Size = new System.Drawing.Size(129, 20);
             this.txtLoz.TabIndex = 3;
             // 
+            // btn1
+            // 
+            this.btn1.Location = new System.Drawing.Point(100, 145);
+            this.btn1.Name = "btn1";
+            this.btn1.Size = new System.Drawing.Size(192, 23);
+            this.btn1.TabIndex = 4;
+            this.btn1.Text = "Prijava";
+            this.btn1.UseVisualStyleBackColor = true;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
+            // 
             // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(376, 183);
+            this.Controls.Add(this.btn1);
             this.Controls.Add(this.txtLoz);
             this.Controls.Add(this.lblLoz);
             this.Controls.Add(this.txtKorIme);
@@ -90,6 +102,7 @@
         private System.Windows.Forms.TextBox txtKorIme;
         private System.Windows.Forms.Label lblLoz;
         private System.Windows.Forms.TextBox txtLoz;
+        private System.Windows.Forms.Button btn1;
     }
 }
 

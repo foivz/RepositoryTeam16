@@ -36,6 +36,7 @@
             this.lbl3 = new System.Windows.Forms.Label();
             this.lbl2 = new System.Windows.Forms.Label();
             this.lbl = new System.Windows.Forms.Label();
+            this.btn1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // dateTimePicker1
@@ -105,11 +106,22 @@
             this.lbl.TabIndex = 16;
             this.lbl.Text = "RadnikS";
             // 
+            // btn1
+            // 
+            this.btn1.Location = new System.Drawing.Point(293, 306);
+            this.btn1.Name = "btn1";
+            this.btn1.Size = new System.Drawing.Size(86, 23);
+            this.btn1.TabIndex = 24;
+            this.btn1.Text = "Glavni izbornik";
+            this.btn1.UseVisualStyleBackColor = true;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
+            // 
             // FrmPregledIzvještaja
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(391, 341);
+            this.Controls.Add(this.btn1);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
@@ -135,5 +147,6 @@
         private System.Windows.Forms.Label lbl3;
         private System.Windows.Forms.Label lbl2;
         private System.Windows.Forms.Label lbl;
+        private System.Windows.Forms.Button btn1;
     }
 }

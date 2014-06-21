@@ -16,5 +16,36 @@ namespace AplikacijaPI
         {
             InitializeComponent();
         }
+
+        private void FrmUnosKorisnikaVozila_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmGlavniIzbornik glavni = new FrmGlavniIzbornik();
+            glavni.Show();
+            this.Close();
+        }
+
+        private void btn1_Click(object sender, EventArgs e)
+        {
+            NoviKorisnik novikor = new NoviKorisnik();
+            novikor.Show();
+        }
+
+        private void btn2_Click(object sender, EventArgs e)
+        {
+            NovoVozilo novovoz = new NovoVozilo();
+            novovoz.Show();
+        }
+
+        private void btn3_Click(object sender, EventArgs e)
+        {
+            FrmIzdavanjeKorisnickihPOdataka izdavanje = new FrmIzdavanjeKorisnickihPOdataka();
+            izdavanje.Show();
+
+        }
     }
 }

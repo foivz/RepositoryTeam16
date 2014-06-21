@@ -36,6 +36,8 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.btn1 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl1
@@ -102,11 +104,32 @@
             this.textBox4.Size = new System.Drawing.Size(86, 20);
             this.textBox4.TabIndex = 7;
             // 
+            // btn1
+            // 
+            this.btn1.Location = new System.Drawing.Point(235, 286);
+            this.btn1.Name = "btn1";
+            this.btn1.Size = new System.Drawing.Size(86, 23);
+            this.btn1.TabIndex = 8;
+            this.btn1.Text = "Glavni izbornik";
+            this.btn1.UseVisualStyleBackColor = true;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(12, 286);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(79, 23);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Spremi";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // FrmUnosDijelova
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(326, 318);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn1);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
@@ -117,6 +140,7 @@
             this.Controls.Add(this.lbl1);
             this.Name = "FrmUnosDijelova";
             this.Text = "FrmUnosDijelova";
+            this.Load += new System.EventHandler(this.FrmUnosDijelova_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -132,5 +156,7 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Button btn1;
+        private System.Windows.Forms.Button button1;
     }
 }

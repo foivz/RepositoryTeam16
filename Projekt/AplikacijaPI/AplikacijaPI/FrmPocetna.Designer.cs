@@ -42,6 +42,7 @@
             this.btnPrijava.TabIndex = 1;
             this.btnPrijava.Text = "Prijava";
             this.btnPrijava.UseVisualStyleBackColor = true;
+            this.btnPrijava.Click += new System.EventHandler(this.btnPrijava_Click);
             // 
             // btnIzlaz
             // 
@@ -51,6 +52,7 @@
             this.btnIzlaz.TabIndex = 2;
             this.btnIzlaz.Text = "Izlaz";
             this.btnIzlaz.UseVisualStyleBackColor = true;
+            this.btnIzlaz.Click += new System.EventHandler(this.btnIzlaz_Click);
             // 
             // picBoxNaziv
             // 

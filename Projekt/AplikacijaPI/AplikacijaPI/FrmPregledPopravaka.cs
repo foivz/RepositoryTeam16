@@ -21,5 +21,11 @@ namespace AplikacijaPI
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmPocetna poc = new FrmPocetna();
+            poc.Show();
+        }
     }
 }

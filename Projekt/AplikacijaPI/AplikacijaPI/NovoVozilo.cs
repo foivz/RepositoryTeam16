@@ -21,5 +21,12 @@ namespace AplikacijaPI
         {
 
         }
+
+        private void btn1_Click(object sender, EventArgs e)
+        {
+            FrmUnosKorisnikaVozila unos = new FrmUnosKorisnikaVozila();
+            unos.Show();
+            this.Close();
+        }
     }
 }

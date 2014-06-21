@@ -16,5 +16,11 @@ namespace AplikacijaPI
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormAžuriranjeRadnihNaloga azuriranje = new FormAžuriranjeRadnihNaloga();
+            azuriranje.Show();
+        }
     }
 }

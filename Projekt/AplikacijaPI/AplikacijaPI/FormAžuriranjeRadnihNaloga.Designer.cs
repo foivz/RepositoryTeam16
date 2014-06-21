@@ -47,6 +47,7 @@
             this.txtKlijent = new System.Windows.Forms.TextBox();
             this.txtVozilo = new System.Windows.Forms.TextBox();
             this.btnSpremi = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblRadniNalog
@@ -196,18 +197,29 @@
             // 
             // btnSpremi
             // 
-            this.btnSpremi.Location = new System.Drawing.Point(260, 351);
+            this.btnSpremi.Location = new System.Drawing.Point(12, 371);
             this.btnSpremi.Name = "btnSpremi";
             this.btnSpremi.Size = new System.Drawing.Size(113, 37);
             this.btnSpremi.TabIndex = 18;
             this.btnSpremi.Text = "Spremi promjene";
             this.btnSpremi.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(280, 371);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(105, 37);
+            this.button1.TabIndex = 19;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FormAžuriranjeRadnihNaloga
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(397, 396);
+            this.ClientSize = new System.Drawing.Size(397, 420);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnSpremi);
             this.Controls.Add(this.txtVozilo);
             this.Controls.Add(this.txtKlijent);
@@ -255,5 +267,6 @@
         private System.Windows.Forms.TextBox txtKlijent;
         private System.Windows.Forms.TextBox txtVozilo;
         private System.Windows.Forms.Button btnSpremi;
+        private System.Windows.Forms.Button button1;
     }
 }

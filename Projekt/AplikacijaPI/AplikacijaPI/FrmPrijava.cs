@@ -26,5 +26,12 @@ namespace AplikacijaPI
         {
 
         }
+
+        private void btn1_Click(object sender, EventArgs e)
+        {
+            FrmGlavniIzbornik glavniIzbornik = new FrmGlavniIzbornik();
+        
+            glavniIzbornik.Show();
+        }
     }
 }

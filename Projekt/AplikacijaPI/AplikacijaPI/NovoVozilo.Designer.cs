@@ -44,6 +44,8 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
+            this.btn1 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl1
@@ -176,11 +178,32 @@
             this.textBox7.Size = new System.Drawing.Size(166, 20);
             this.textBox7.TabIndex = 15;
             // 
+            // btn1
+            // 
+            this.btn1.Location = new System.Drawing.Point(310, 448);
+            this.btn1.Name = "btn1";
+            this.btn1.Size = new System.Drawing.Size(86, 23);
+            this.btn1.TabIndex = 26;
+            this.btn1.Text = "Glavni izbornik";
+            this.btn1.UseVisualStyleBackColor = true;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(12, 448);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(79, 23);
+            this.button1.TabIndex = 27;
+            this.button1.Text = "Spremi";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // NovoVozilo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(364, 450);
+            this.ClientSize = new System.Drawing.Size(408, 483);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn1);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox5);
@@ -222,5 +245,7 @@
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Button btn1;
+        private System.Windows.Forms.Button button1;
     }
 }

@@ -21,5 +21,13 @@ namespace AplikacijaPI
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+            FrmGlavniIzbornik glavni = new FrmGlavniIzbornik();
+            glavni.Show();
+            this.Close();
+        }
     }
 }

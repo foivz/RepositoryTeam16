@@ -16,5 +16,19 @@ namespace AplikacijaPI
         {
             InitializeComponent();
         }
+
+        private void btn1_Click(object sender, EventArgs e)
+        {
+            FrmGlavniIzbornik glavni = new FrmGlavniIzbornik();
+            glavni.Show();
+            this.Close();
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmIzradaRacuna racun = new FrmIzradaRacuna();
+            racun.Show();
+        }
     }
 }
