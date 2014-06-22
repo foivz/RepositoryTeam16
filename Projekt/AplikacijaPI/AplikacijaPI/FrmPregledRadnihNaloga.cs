@@ -22,5 +22,16 @@ namespace AplikacijaPI
             FormAžuriranjeRadnihNaloga azuriranje = new FormAžuriranjeRadnihNaloga();
             azuriranje.Show();
         }
+
+        private void FrmPregledRadnihNaloga_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 't16_DBDataSet.Radni_nalog' table. You can move, or remove it, as needed.
+            this.radni_nalogTableAdapter.Fill(this.t16_DBDataSet.Radni_nalog);
+            // TODO: This line of code loads data into the 't16_DBDataSet.Vozilo' table. You can move, or remove it, as needed.
+            this.voziloTableAdapter.Fill(this.t16_DBDataSet.Vozilo);
+            // TODO: This line of code loads data into the 't16_DBDataSet.Korisnik' table. You can move, or remove it, as needed.
+            this.korisnikTableAdapter.Fill(this.t16_DBDataSet.Korisnik);
+
+        }
     }
 }

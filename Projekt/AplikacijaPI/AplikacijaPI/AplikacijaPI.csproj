@@ -136,6 +136,11 @@
     <Compile Include="RadniNalog.Designer.cs">
       <DependentUpon>RadniNalog.cs</DependentUpon>
     </Compile>
+    <Compile Include="T16_DBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>T16_DBDataSet.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="FormAžuriranjeRadnihNaloga.resx">
       <DependentUpon>FormAžuriranjeRadnihNaloga.cs</DependentUpon>
     </EmbeddedResource>
@@ -199,6 +204,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="T16_DBDataSet.xsc">
+      <DependentUpon>T16_DBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="T16_DBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>T16_DBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="T16_DBDataSet.xss">
+      <DependentUpon>T16_DBDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

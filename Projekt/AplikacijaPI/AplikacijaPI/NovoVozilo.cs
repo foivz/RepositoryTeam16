@@ -28,5 +28,12 @@ namespace AplikacijaPI
             unos.Show();
             this.Close();
         }
+
+        private void NovoVozilo_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 't16_DBDataSet.Vozilo' table. You can move, or remove it, as needed.
+            this.voziloTableAdapter.Fill(this.t16_DBDataSet.Vozilo);
+
+        }
     }
 }

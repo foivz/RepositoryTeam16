@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lbl1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.lbl2 = new System.Windows.Forms.Label();
@@ -48,6 +49,12 @@
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.btn1 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.t16_DBDataSet = new AplikacijaPI.T16_DBDataSet();
+            this.korisnikBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.korisnikTableAdapter = new AplikacijaPI.T16_DBDataSetTableAdapters.KorisnikTableAdapter();
+            this.tableAdapterManager = new AplikacijaPI.T16_DBDataSetTableAdapters.TableAdapterManager();
+            ((System.ComponentModel.ISupportInitialize)(this.t16_DBDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.korisnikBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl1
@@ -61,6 +68,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.korisnikBindingSource, "OIB", true));
             this.textBox1.Location = new System.Drawing.Point(123, 19);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(158, 20);
@@ -77,6 +85,7 @@
             // 
             // textBox2
             // 
+            this.textBox2.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.korisnikBindingSource, "ime", true));
             this.textBox2.Location = new System.Drawing.Point(123, 65);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(158, 20);
@@ -93,6 +102,7 @@
             // 
             // textBox3
             // 
+            this.textBox3.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.korisnikBindingSource, "prezime", true));
             this.textBox3.Location = new System.Drawing.Point(123, 113);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(158, 20);
@@ -118,6 +128,7 @@
             // 
             // textBox4
             // 
+            this.textBox4.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.korisnikBindingSource, "adresa", true));
             this.textBox4.Location = new System.Drawing.Point(123, 167);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(156, 20);
@@ -125,6 +136,7 @@
             // 
             // textBox5
             // 
+            this.textBox5.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.korisnikBindingSource, "broj_telefona", true));
             this.textBox5.Location = new System.Drawing.Point(123, 213);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(158, 20);
@@ -168,6 +180,7 @@
             // 
             // textBox6
             // 
+            this.textBox6.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.korisnikBindingSource, "korisnicko_ime", true));
             this.textBox6.Location = new System.Drawing.Point(123, 259);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(156, 20);
@@ -175,6 +188,7 @@
             // 
             // textBox7
             // 
+            this.textBox7.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.korisnikBindingSource, "lozinka", true));
             this.textBox7.Location = new System.Drawing.Point(123, 300);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(156, 20);
@@ -182,6 +196,7 @@
             // 
             // textBox8
             // 
+            this.textBox8.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.korisnikBindingSource, "radno_mjesto", true));
             this.textBox8.Location = new System.Drawing.Point(123, 342);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(158, 20);
@@ -189,6 +204,7 @@
             // 
             // textBox9
             // 
+            this.textBox9.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.korisnikBindingSource, "sifra_zaposlenika", true));
             this.textBox9.Location = new System.Drawing.Point(123, 383);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(158, 20);
@@ -212,6 +228,32 @@
             this.button1.TabIndex = 26;
             this.button1.Text = "Spremi";
             this.button1.UseVisualStyleBackColor = true;
+            // 
+            // t16_DBDataSet
+            // 
+            this.t16_DBDataSet.DataSetName = "T16_DBDataSet";
+            this.t16_DBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // korisnikBindingSource
+            // 
+            this.korisnikBindingSource.DataMember = "Korisnik";
+            this.korisnikBindingSource.DataSource = this.t16_DBDataSet;
+            // 
+            // korisnikTableAdapter
+            // 
+            this.korisnikTableAdapter.ClearBeforeFill = true;
+            // 
+            // tableAdapterManager
+            // 
+            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.Dijelovi_uslugeTableAdapter = null;
+            this.tableAdapterManager.KorisnikTableAdapter = this.korisnikTableAdapter;
+            this.tableAdapterManager.MarkaVozilaTableAdapter = null;
+            this.tableAdapterManager.ModelTableAdapter = null;
+            this.tableAdapterManager.Radni_nalogTableAdapter = null;
+            this.tableAdapterManager.stavkaTableAdapter = null;
+            this.tableAdapterManager.UpdateOrder = AplikacijaPI.T16_DBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            this.tableAdapterManager.VoziloTableAdapter = null;
             // 
             // NoviKorisnik
             // 
@@ -240,6 +282,9 @@
             this.Controls.Add(this.lbl1);
             this.Name = "NoviKorisnik";
             this.Text = "NoviKorisnik";
+            this.Load += new System.EventHandler(this.NoviKorisnik_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.t16_DBDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.korisnikBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -267,5 +312,9 @@
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.Button btn1;
         private System.Windows.Forms.Button button1;
+        private T16_DBDataSet t16_DBDataSet;
+        private System.Windows.Forms.BindingSource korisnikBindingSource;
+        private T16_DBDataSetTableAdapters.KorisnikTableAdapter korisnikTableAdapter;
+        private T16_DBDataSetTableAdapters.TableAdapterManager tableAdapterManager;
     }
 }

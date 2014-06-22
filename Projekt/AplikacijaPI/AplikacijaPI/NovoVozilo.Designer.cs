@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lbl1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.lbl2 = new System.Windows.Forms.Label();
@@ -46,6 +47,14 @@
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.btn1 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.lbl9 = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.t16_DBDataSet = new AplikacijaPI.T16_DBDataSet();
+            this.voziloBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.voziloTableAdapter = new AplikacijaPI.T16_DBDataSetTableAdapters.VoziloTableAdapter();
+            this.tableAdapterManager = new AplikacijaPI.T16_DBDataSetTableAdapters.TableAdapterManager();
+            ((System.ComponentModel.ISupportInitialize)(this.t16_DBDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.voziloBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl1
@@ -59,6 +68,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.voziloBindingSource, "VIN", true));
             this.textBox1.Location = new System.Drawing.Point(142, 40);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(167, 20);
@@ -75,6 +85,7 @@
             // 
             // textBox2
             // 
+            this.textBox2.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.voziloBindingSource, "ID_model", true));
             this.textBox2.Location = new System.Drawing.Point(142, 97);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(166, 20);
@@ -91,6 +102,7 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.voziloBindingSource, "vlasnik", true));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(142, 156);
             this.comboBox1.Name = "comboBox1";
@@ -108,6 +120,7 @@
             // 
             // textBox3
             // 
+            this.textBox3.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.voziloBindingSource, "registracijska_oznaka", true));
             this.textBox3.Location = new System.Drawing.Point(142, 209);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(166, 20);
@@ -151,6 +164,7 @@
             // 
             // textBox4
             // 
+            this.textBox4.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.voziloBindingSource, "boja", true));
             this.textBox4.Location = new System.Drawing.Point(142, 255);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(164, 20);
@@ -158,6 +172,7 @@
             // 
             // textBox5
             // 
+            this.textBox5.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.voziloBindingSource, "godina_prozivodnje", true));
             this.textBox5.Location = new System.Drawing.Point(142, 302);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(163, 20);
@@ -166,6 +181,7 @@
             // 
             // textBox6
             // 
+            this.textBox6.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.voziloBindingSource, "snaga", true));
             this.textBox6.Location = new System.Drawing.Point(138, 356);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(167, 20);
@@ -173,6 +189,7 @@
             // 
             // textBox7
             // 
+            this.textBox7.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.voziloBindingSource, "prva_registracija", true));
             this.textBox7.Location = new System.Drawing.Point(138, 401);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(166, 20);
@@ -180,7 +197,7 @@
             // 
             // btn1
             // 
-            this.btn1.Location = new System.Drawing.Point(310, 448);
+            this.btn1.Location = new System.Drawing.Point(310, 528);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(86, 23);
             this.btn1.TabIndex = 26;
@@ -190,18 +207,63 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 448);
+            this.button1.Location = new System.Drawing.Point(7, 528);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(79, 23);
             this.button1.TabIndex = 27;
             this.button1.Text = "Spremi";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // lbl9
+            // 
+            this.lbl9.AutoSize = true;
+            this.lbl9.Location = new System.Drawing.Point(34, 459);
+            this.lbl9.Name = "lbl9";
+            this.lbl9.Size = new System.Drawing.Size(38, 13);
+            this.lbl9.TabIndex = 28;
+            this.lbl9.Text = "Gorivo";
+            // 
+            // textBox8
+            // 
+            this.textBox8.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.voziloBindingSource, "gorivo", true));
+            this.textBox8.Location = new System.Drawing.Point(138, 452);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(163, 20);
+            this.textBox8.TabIndex = 29;
+            // 
+            // t16_DBDataSet
+            // 
+            this.t16_DBDataSet.DataSetName = "T16_DBDataSet";
+            this.t16_DBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // voziloBindingSource
+            // 
+            this.voziloBindingSource.DataMember = "Vozilo";
+            this.voziloBindingSource.DataSource = this.t16_DBDataSet;
+            // 
+            // voziloTableAdapter
+            // 
+            this.voziloTableAdapter.ClearBeforeFill = true;
+            // 
+            // tableAdapterManager
+            // 
+            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.Dijelovi_uslugeTableAdapter = null;
+            this.tableAdapterManager.KorisnikTableAdapter = null;
+            this.tableAdapterManager.MarkaVozilaTableAdapter = null;
+            this.tableAdapterManager.ModelTableAdapter = null;
+            this.tableAdapterManager.Radni_nalogTableAdapter = null;
+            this.tableAdapterManager.stavkaTableAdapter = null;
+            this.tableAdapterManager.UpdateOrder = AplikacijaPI.T16_DBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            this.tableAdapterManager.VoziloTableAdapter = this.voziloTableAdapter;
+            // 
             // NovoVozilo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(408, 483);
+            this.ClientSize = new System.Drawing.Size(408, 563);
+            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.lbl9);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btn1);
             this.Controls.Add(this.textBox7);
@@ -222,6 +284,9 @@
             this.Controls.Add(this.lbl1);
             this.Name = "NovoVozilo";
             this.Text = "NovoVozilo";
+            this.Load += new System.EventHandler(this.NovoVozilo_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.t16_DBDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.voziloBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -247,5 +312,11 @@
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Button btn1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lbl9;
+        private System.Windows.Forms.TextBox textBox8;
+        private T16_DBDataSet t16_DBDataSet;
+        private System.Windows.Forms.BindingSource voziloBindingSource;
+        private T16_DBDataSetTableAdapters.VoziloTableAdapter voziloTableAdapter;
+        private T16_DBDataSetTableAdapters.TableAdapterManager tableAdapterManager;
     }
 }

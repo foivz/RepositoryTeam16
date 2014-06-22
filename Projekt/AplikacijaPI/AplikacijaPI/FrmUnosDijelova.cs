@@ -19,6 +19,10 @@ namespace AplikacijaPI
 
         private void FrmUnosDijelova_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 't16_DBDataSet.Dijelovi_usluge' table. You can move, or remove it, as needed.
+            this.dijelovi_uslugeTableAdapter.Fill(this.t16_DBDataSet.Dijelovi_usluge);
+            // TODO: This line of code loads data into the 't16_DBDataSet.Korisnik' table. You can move, or remove it, as needed.
+            this.korisnikTableAdapter.Fill(this.t16_DBDataSet.Korisnik);
 
         }
 
