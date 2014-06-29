@@ -34,20 +34,20 @@
             this.lbl3 = new System.Windows.Forms.Label();
             this.lbl4 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.dijelovi_uslugeBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.t16_DBDataSet = new AplikacijaPI.T16_DBDataSet();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.btn1 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.t16_DBDataSet = new AplikacijaPI.T16_DBDataSet();
             this.korisnikBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.korisnikTableAdapter = new AplikacijaPI.T16_DBDataSetTableAdapters.KorisnikTableAdapter();
             this.tableAdapterManager = new AplikacijaPI.T16_DBDataSetTableAdapters.TableAdapterManager();
-            this.dijelovi_uslugeBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dijelovi_uslugeTableAdapter = new AplikacijaPI.T16_DBDataSetTableAdapters.Dijelovi_uslugeTableAdapter();
+            ((System.ComponentModel.ISupportInitialize)(this.dijelovi_uslugeBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.t16_DBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.korisnikBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dijelovi_uslugeBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl1
@@ -94,6 +94,16 @@
             this.textBox2.Size = new System.Drawing.Size(118, 20);
             this.textBox2.TabIndex = 5;
             // 
+            // dijelovi_uslugeBindingSource
+            // 
+            this.dijelovi_uslugeBindingSource.DataMember = "Dijelovi_usluge";
+            this.dijelovi_uslugeBindingSource.DataSource = this.t16_DBDataSet;
+            // 
+            // t16_DBDataSet
+            // 
+            this.t16_DBDataSet.DataSetName = "T16_DBDataSet";
+            this.t16_DBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // textBox3
             // 
             this.textBox3.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.dijelovi_uslugeBindingSource, "cijena", true));
@@ -120,12 +130,15 @@
             this.button1.TabIndex = 9;
             this.button1.Text = "Spremi";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button1_MouseUp);
             // 
             // comboBox1
             // 
             this.comboBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.korisnikBindingSource, "sifra_zaposlenika", true));
+            this.comboBox1.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.korisnikBindingSource, "sifra_zaposlenika", true));
             this.comboBox1.DataSource = this.korisnikBindingSource;
-            this.comboBox1.DisplayMember = "sifra_zaposlenika";
+            this.comboBox1.DisplayMember = "ime";
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(131, 45);
             this.comboBox1.Name = "comboBox1";
@@ -133,22 +146,17 @@
             this.comboBox1.TabIndex = 10;
             this.comboBox1.ValueMember = "sifra_zaposlenika";
             // 
+            // korisnikBindingSource
+            // 
+            this.korisnikBindingSource.DataMember = "Korisnik";
+            this.korisnikBindingSource.DataSource = this.t16_DBDataSet;
+            // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(129, 100);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(122, 20);
             this.dateTimePicker1.TabIndex = 11;
-            // 
-            // t16_DBDataSet
-            // 
-            this.t16_DBDataSet.DataSetName = "T16_DBDataSet";
-            this.t16_DBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // korisnikBindingSource
-            // 
-            this.korisnikBindingSource.DataMember = "Korisnik";
-            this.korisnikBindingSource.DataSource = this.t16_DBDataSet;
             // 
             // korisnikTableAdapter
             // 
@@ -165,11 +173,6 @@
             this.tableAdapterManager.stavkaTableAdapter = null;
             this.tableAdapterManager.UpdateOrder = AplikacijaPI.T16_DBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             this.tableAdapterManager.VoziloTableAdapter = null;
-            // 
-            // dijelovi_uslugeBindingSource
-            // 
-            this.dijelovi_uslugeBindingSource.DataMember = "Dijelovi_usluge";
-            this.dijelovi_uslugeBindingSource.DataSource = this.t16_DBDataSet;
             // 
             // dijelovi_uslugeTableAdapter
             // 
@@ -193,9 +196,9 @@
             this.Name = "FrmUnosDijelova";
             this.Text = "FrmUnosDijelova";
             this.Load += new System.EventHandler(this.FrmUnosDijelova_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dijelovi_uslugeBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.t16_DBDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.korisnikBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dijelovi_uslugeBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

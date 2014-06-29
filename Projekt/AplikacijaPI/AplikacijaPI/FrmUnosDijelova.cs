@@ -12,9 +12,17 @@ namespace AplikacijaPI
 {
     public partial class FrmUnosDijelova : Form
     {
+        private int kataloski_broj;
+
         public FrmUnosDijelova()
         {
             InitializeComponent();
+        }
+
+        public FrmUnosDijelova(int kataloski_broj)
+        {
+            // TODO: Complete member initialization
+            this.kataloski_broj = kataloski_broj;
         }
 
         private void FrmUnosDijelova_Load(object sender, EventArgs e)
@@ -32,5 +40,29 @@ namespace AplikacijaPI
             glavni.Show();
             this.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           // createNewEntry();
+
+        }
+
+        private void createNewEntry() {
+
+            this.Validate();
+            this.dijelovi_uslugeBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.t16_DBDataSet);
+        }
+
+        private void button1_MouseUp(object sender, MouseEventArgs e)
+        {
+           // createNewEntry();
+            int kataloski_broj = (int)t16_DBDataSet.Dijelovi_usluge.Rows[0]["kataloski_broj"];
+            FrmUnosDijelova unos = new FrmUnosDijelova(kataloski_broj);
+            if (Editing) unos.Editing= true;
+            unos.ShowDialog();
+        }
+
+        public bool Editing { get; set; }
     }
 }
