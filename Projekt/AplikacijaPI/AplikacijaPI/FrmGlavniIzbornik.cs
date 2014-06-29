@@ -33,7 +33,7 @@ namespace AplikacijaPI
 
         private void btn3_Click(object sender, EventArgs e)
         {
-            FrmIzradaRadnogNaloga izradaradnognaloga = new FrmIzradaRadnogNaloga();
+            RadniNalog izradaradnognaloga = new RadniNalog();
          //   izradaradnognaloga.MdiParent = this;
 
             izradaradnognaloga.Show();

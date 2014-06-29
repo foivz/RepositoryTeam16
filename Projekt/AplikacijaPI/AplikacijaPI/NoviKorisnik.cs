@@ -28,7 +28,27 @@ namespace AplikacijaPI
         {
             // TODO: This line of code loads data into the 't16_DBDataSet.Korisnik' table. You can move, or remove it, as needed.
             this.korisnikTableAdapter.Fill(this.t16_DBDataSet.Korisnik);
-
+            korisnikBindingSource.AddNew();
         }
+
+       
+
+        private void spremi()
+        {
+
+            this.Validate();
+            this.korisnikBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.t16_DBDataSet);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            spremi();
+            korisnikBindingSource.AddNew();
+        }
+
+
+
+
     }
 }

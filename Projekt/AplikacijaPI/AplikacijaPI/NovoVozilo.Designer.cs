@@ -29,12 +29,15 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NovoVozilo));
+            System.Windows.Forms.Label iD_modelLabel;
             this.lbl1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.lbl2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.voziloBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.t16_DBDataSet = new AplikacijaPI.T16_DBDataSet();
             this.lbl3 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.korisnikBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.lbl4 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.lbl5 = new System.Windows.Forms.Label();
@@ -49,18 +52,38 @@
             this.button1 = new System.Windows.Forms.Button();
             this.lbl9 = new System.Windows.Forms.Label();
             this.textBox8 = new System.Windows.Forms.TextBox();
-            this.t16_DBDataSet = new AplikacijaPI.T16_DBDataSet();
-            this.voziloBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.voziloTableAdapter = new AplikacijaPI.T16_DBDataSetTableAdapters.VoziloTableAdapter();
             this.tableAdapterManager = new AplikacijaPI.T16_DBDataSetTableAdapters.TableAdapterManager();
-            ((System.ComponentModel.ISupportInitialize)(this.t16_DBDataSet)).BeginInit();
+            this.voziloBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
+            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
+            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
+            this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
+            this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.voziloBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
+            this.korisnikTableAdapter = new AplikacijaPI.T16_DBDataSetTableAdapters.KorisnikTableAdapter();
+            this.modelBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.modelTableAdapter = new AplikacijaPI.T16_DBDataSetTableAdapters.ModelTableAdapter();
+            this.iD_modelComboBox = new System.Windows.Forms.ComboBox();
+            iD_modelLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.voziloBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.t16_DBDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.korisnikBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.voziloBindingNavigator)).BeginInit();
+            this.voziloBindingNavigator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.modelBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl1
             // 
             this.lbl1.AutoSize = true;
-            this.lbl1.Location = new System.Drawing.Point(31, 43);
+            this.lbl1.Location = new System.Drawing.Point(31, 58);
             this.lbl1.Name = "lbl1";
             this.lbl1.Size = new System.Drawing.Size(55, 13);
             this.lbl1.TabIndex = 0;
@@ -69,27 +92,20 @@
             // textBox1
             // 
             this.textBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.voziloBindingSource, "VIN", true));
-            this.textBox1.Location = new System.Drawing.Point(142, 40);
+            this.textBox1.Location = new System.Drawing.Point(142, 55);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(167, 20);
             this.textBox1.TabIndex = 1;
             // 
-            // lbl2
+            // voziloBindingSource
             // 
-            this.lbl2.AutoSize = true;
-            this.lbl2.Location = new System.Drawing.Point(33, 100);
-            this.lbl2.Name = "lbl2";
-            this.lbl2.Size = new System.Drawing.Size(52, 13);
-            this.lbl2.TabIndex = 2;
-            this.lbl2.Text = "ID_model";
+            this.voziloBindingSource.DataMember = "Vozilo";
+            this.voziloBindingSource.DataSource = this.t16_DBDataSet;
             // 
-            // textBox2
+            // t16_DBDataSet
             // 
-            this.textBox2.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.voziloBindingSource, "ID_model", true));
-            this.textBox2.Location = new System.Drawing.Point(142, 97);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(166, 20);
-            this.textBox2.TabIndex = 3;
+            this.t16_DBDataSet.DataSetName = "T16_DBDataSet";
+            this.t16_DBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // lbl3
             // 
@@ -102,12 +118,19 @@
             // 
             // comboBox1
             // 
-            this.comboBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.voziloBindingSource, "vlasnik", true));
+            this.comboBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.korisnikBindingSource, "ime", true));
+            this.comboBox1.DataSource = this.korisnikBindingSource;
+            this.comboBox1.DisplayMember = "ime";
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(142, 156);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(165, 21);
             this.comboBox1.TabIndex = 5;
+            // 
+            // korisnikBindingSource
+            // 
+            this.korisnikBindingSource.DataMember = "Korisnik";
+            this.korisnikBindingSource.DataSource = this.t16_DBDataSet;
             // 
             // lbl4
             // 
@@ -213,6 +236,7 @@
             this.button1.TabIndex = 27;
             this.button1.Text = "Spremi";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // lbl9
             // 
@@ -231,16 +255,6 @@
             this.textBox8.Size = new System.Drawing.Size(163, 20);
             this.textBox8.TabIndex = 29;
             // 
-            // t16_DBDataSet
-            // 
-            this.t16_DBDataSet.DataSetName = "T16_DBDataSet";
-            this.t16_DBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // voziloBindingSource
-            // 
-            this.voziloBindingSource.DataMember = "Vozilo";
-            this.voziloBindingSource.DataSource = this.t16_DBDataSet;
-            // 
             // voziloTableAdapter
             // 
             this.voziloTableAdapter.ClearBeforeFill = true;
@@ -257,11 +271,172 @@
             this.tableAdapterManager.UpdateOrder = AplikacijaPI.T16_DBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             this.tableAdapterManager.VoziloTableAdapter = this.voziloTableAdapter;
             // 
+            // voziloBindingNavigator
+            // 
+            this.voziloBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
+            this.voziloBindingNavigator.BindingSource = this.voziloBindingSource;
+            this.voziloBindingNavigator.CountItem = this.bindingNavigatorCountItem;
+            this.voziloBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
+            this.voziloBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.bindingNavigatorMoveFirstItem,
+            this.bindingNavigatorMovePreviousItem,
+            this.bindingNavigatorSeparator,
+            this.bindingNavigatorPositionItem,
+            this.bindingNavigatorCountItem,
+            this.bindingNavigatorSeparator1,
+            this.bindingNavigatorMoveNextItem,
+            this.bindingNavigatorMoveLastItem,
+            this.bindingNavigatorSeparator2,
+            this.bindingNavigatorAddNewItem,
+            this.bindingNavigatorDeleteItem,
+            this.voziloBindingNavigatorSaveItem});
+            this.voziloBindingNavigator.Location = new System.Drawing.Point(0, 0);
+            this.voziloBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
+            this.voziloBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
+            this.voziloBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
+            this.voziloBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
+            this.voziloBindingNavigator.Name = "voziloBindingNavigator";
+            this.voziloBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
+            this.voziloBindingNavigator.Size = new System.Drawing.Size(416, 25);
+            this.voziloBindingNavigator.TabIndex = 30;
+            this.voziloBindingNavigator.Text = "bindingNavigator1";
+            // 
+            // bindingNavigatorAddNewItem
+            // 
+            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
+            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
+            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorAddNewItem.Text = "Add new";
+            // 
+            // bindingNavigatorCountItem
+            // 
+            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 22);
+            this.bindingNavigatorCountItem.Text = "of {0}";
+            this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
+            // 
+            // bindingNavigatorDeleteItem
+            // 
+            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
+            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
+            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorDeleteItem.Text = "Delete";
+            // 
+            // bindingNavigatorMoveFirstItem
+            // 
+            this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
+            this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
+            this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMoveFirstItem.Text = "Move first";
+            // 
+            // bindingNavigatorMovePreviousItem
+            // 
+            this.bindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
+            this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
+            this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMovePreviousItem.Text = "Move previous";
+            // 
+            // bindingNavigatorSeparator
+            // 
+            this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 25);
+            // 
+            // bindingNavigatorPositionItem
+            // 
+            this.bindingNavigatorPositionItem.AccessibleName = "Position";
+            this.bindingNavigatorPositionItem.AutoSize = false;
+            this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
+            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 23);
+            this.bindingNavigatorPositionItem.Text = "0";
+            this.bindingNavigatorPositionItem.ToolTipText = "Current position";
+            // 
+            // bindingNavigatorSeparator1
+            // 
+            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
+            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 25);
+            // 
+            // bindingNavigatorMoveNextItem
+            // 
+            this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
+            this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
+            this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMoveNextItem.Text = "Move next";
+            // 
+            // bindingNavigatorMoveLastItem
+            // 
+            this.bindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
+            this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
+            this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMoveLastItem.Text = "Move last";
+            // 
+            // bindingNavigatorSeparator2
+            // 
+            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
+            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 25);
+            // 
+            // voziloBindingNavigatorSaveItem
+            // 
+            this.voziloBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.voziloBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("voziloBindingNavigatorSaveItem.Image")));
+            this.voziloBindingNavigatorSaveItem.Name = "voziloBindingNavigatorSaveItem";
+            this.voziloBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 22);
+            this.voziloBindingNavigatorSaveItem.Text = "Save Data";
+            // 
+            // korisnikTableAdapter
+            // 
+            this.korisnikTableAdapter.ClearBeforeFill = true;
+            // 
+            // modelBindingSource
+            // 
+            this.modelBindingSource.DataMember = "Model";
+            this.modelBindingSource.DataSource = this.t16_DBDataSet;
+            // 
+            // modelTableAdapter
+            // 
+            this.modelTableAdapter.ClearBeforeFill = true;
+            // 
+            // iD_modelLabel
+            // 
+            iD_modelLabel.AutoSize = true;
+            iD_modelLabel.Location = new System.Drawing.Point(31, 108);
+            iD_modelLabel.Name = "iD_modelLabel";
+            iD_modelLabel.Size = new System.Drawing.Size(52, 13);
+            iD_modelLabel.TabIndex = 30;
+            iD_modelLabel.Text = "ID model:";
+            // 
+            // iD_modelComboBox
+            // 
+            this.iD_modelComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.modelBindingSource, "ID_model", true));
+            this.iD_modelComboBox.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.modelBindingSource, "ID_model", true));
+            this.iD_modelComboBox.DataSource = this.modelBindingSource;
+            this.iD_modelComboBox.DisplayMember = "naziv";
+            this.iD_modelComboBox.FormattingEnabled = true;
+            this.iD_modelComboBox.Location = new System.Drawing.Point(143, 108);
+            this.iD_modelComboBox.Name = "iD_modelComboBox";
+            this.iD_modelComboBox.Size = new System.Drawing.Size(163, 21);
+            this.iD_modelComboBox.TabIndex = 31;
+            this.iD_modelComboBox.ValueMember = "ID_model";
+            // 
             // NovoVozilo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(408, 563);
+            this.ClientSize = new System.Drawing.Size(416, 571);
+            this.Controls.Add(iD_modelLabel);
+            this.Controls.Add(this.iD_modelComboBox);
+            this.Controls.Add(this.voziloBindingNavigator);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.lbl9);
             this.Controls.Add(this.button1);
@@ -278,15 +453,18 @@
             this.Controls.Add(this.lbl4);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.lbl3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.lbl2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lbl1);
             this.Name = "NovoVozilo";
             this.Text = "NovoVozilo";
             this.Load += new System.EventHandler(this.NovoVozilo_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.t16_DBDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.voziloBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.t16_DBDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.korisnikBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.voziloBindingNavigator)).EndInit();
+            this.voziloBindingNavigator.ResumeLayout(false);
+            this.voziloBindingNavigator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.modelBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -296,8 +474,6 @@
 
         private System.Windows.Forms.Label lbl1;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label lbl2;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label lbl3;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label lbl4;
@@ -318,5 +494,23 @@
         private System.Windows.Forms.BindingSource voziloBindingSource;
         private T16_DBDataSetTableAdapters.VoziloTableAdapter voziloTableAdapter;
         private T16_DBDataSetTableAdapters.TableAdapterManager tableAdapterManager;
+        private System.Windows.Forms.BindingNavigator voziloBindingNavigator;
+        private System.Windows.Forms.ToolStripButton bindingNavigatorAddNewItem;
+        private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;
+        private System.Windows.Forms.ToolStripButton bindingNavigatorDeleteItem;
+        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveFirstItem;
+        private System.Windows.Forms.ToolStripButton bindingNavigatorMovePreviousItem;
+        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator;
+        private System.Windows.Forms.ToolStripTextBox bindingNavigatorPositionItem;
+        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator1;
+        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveNextItem;
+        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
+        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
+        private System.Windows.Forms.ToolStripButton voziloBindingNavigatorSaveItem;
+        private System.Windows.Forms.BindingSource korisnikBindingSource;
+        private T16_DBDataSetTableAdapters.KorisnikTableAdapter korisnikTableAdapter;
+        private System.Windows.Forms.BindingSource modelBindingSource;
+        private T16_DBDataSetTableAdapters.ModelTableAdapter modelTableAdapter;
+        private System.Windows.Forms.ComboBox iD_modelComboBox;
     }
 }
