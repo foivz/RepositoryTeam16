@@ -49,7 +49,7 @@ namespace AplikacijaPI
 
         ~Baza()
         {
-            Connection.Close();
+            //Connection.Close();
             Connection = null;
         }
 

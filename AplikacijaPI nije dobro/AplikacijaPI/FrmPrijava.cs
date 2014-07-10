@@ -35,8 +35,7 @@ namespace AplikacijaPI
             {
                 //Your insert code here
                 string KorIme = comboBox1.Text;
-                MessageBox.Show(KorIme);
-                string lozinka = Convert.ToString(Baza.Instance.DohvatiVrijednost("select lozinka from Korisnik where korisnicko_ime="+KorIme+";"));
+                string lozinka = Convert.ToString(Baza.Instance.DohvatiVrijednost("select lozinka from Korisnik where korisnicko_ime='"+KorIme+"';"));
                 string loz = Convert.ToString(txtLoz.Text);
             if (loz == lozinka)
             {
