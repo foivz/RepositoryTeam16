@@ -137,10 +137,6 @@
     <Compile Include="RadniNalog.Designer.cs">
       <DependentUpon>RadniNalog.cs</DependentUpon>
     </Compile>
-    <Compile Include="T16_DBDataSet.cs">
-      <DependentUpon>T16_DBDataSet.xsd</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="T16_DBDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

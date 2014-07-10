@@ -53,3 +53,6 @@ C:\PI aplikacija i sve uz projekt\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\Ap
 C:\PI aplikacija i sve uz projekt\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.Properties.Resources.resources
 C:\PI aplikacija i sve uz projekt\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.RadniNalog.resources
 C:\PI aplikacija i sve uz projekt\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.csproj.GenerateResource.Cache
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\bin\Debug\AplikacijaPI.exe.config
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.exe
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.pdb

@@ -32,7 +32,6 @@
             System.Windows.Forms.Label oIBLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NoviKorisnik));
             this.korisnikBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.t16_DBDataSet = new AplikacijaPI.T16_DBDataSet();
             this.lbl2 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.lbl3 = new System.Windows.Forms.Label();
@@ -51,8 +50,6 @@
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.btn1 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.korisnikTableAdapter = new AplikacijaPI.T16_DBDataSetTableAdapters.KorisnikTableAdapter();
-            this.tableAdapterManager = new AplikacijaPI.T16_DBDataSetTableAdapters.TableAdapterManager();
             this.korisnikBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
@@ -70,7 +67,6 @@
             this.button2 = new System.Windows.Forms.Button();
             oIBLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.korisnikBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.t16_DBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.korisnikBindingNavigator)).BeginInit();
             this.korisnikBindingNavigator.SuspendLayout();
             this.SuspendLayout();
@@ -87,12 +83,6 @@
             // korisnikBindingSource
             // 
             this.korisnikBindingSource.DataMember = "Korisnik";
-            this.korisnikBindingSource.DataSource = this.t16_DBDataSet;
-            // 
-            // t16_DBDataSet
-            // 
-            this.t16_DBDataSet.DataSetName = "T16_DBDataSet";
-            this.t16_DBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // lbl2
             // 
@@ -249,22 +239,6 @@
             this.button1.Text = "Spremi";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // korisnikTableAdapter
-            // 
-            this.korisnikTableAdapter.ClearBeforeFill = true;
-            // 
-            // tableAdapterManager
-            // 
-            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.Dijelovi_uslugeTableAdapter = null;
-            this.tableAdapterManager.KorisnikTableAdapter = this.korisnikTableAdapter;
-            this.tableAdapterManager.MarkaVozilaTableAdapter = null;
-            this.tableAdapterManager.ModelTableAdapter = null;
-            this.tableAdapterManager.Radni_nalogTableAdapter = null;
-            this.tableAdapterManager.stavkaTableAdapter = null;
-            this.tableAdapterManager.UpdateOrder = AplikacijaPI.T16_DBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
-            this.tableAdapterManager.VoziloTableAdapter = null;
             // 
             // korisnikBindingNavigator
             // 
@@ -438,7 +412,6 @@
             this.Text = "NoviKorisnik";
             this.Load += new System.EventHandler(this.NoviKorisnik_Load);
             ((System.ComponentModel.ISupportInitialize)(this.korisnikBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.t16_DBDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.korisnikBindingNavigator)).EndInit();
             this.korisnikBindingNavigator.ResumeLayout(false);
             this.korisnikBindingNavigator.PerformLayout();
