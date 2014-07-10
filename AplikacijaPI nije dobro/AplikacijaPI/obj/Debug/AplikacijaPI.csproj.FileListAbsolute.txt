@@ -56,3 +56,6 @@ C:\PI aplikacija i sve uz projekt\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\Ap
 C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\bin\Debug\AplikacijaPI.exe.config
 C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.exe
 C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.pdb
+C:\Users\Racer\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\bin\Debug\AplikacijaPI.exe.config
+C:\Users\Racer\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.exe
+C:\Users\Racer\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.pdb
