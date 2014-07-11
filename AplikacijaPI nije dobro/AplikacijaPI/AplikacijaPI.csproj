@@ -239,6 +239,63 @@
   <ItemGroup>
     <None Include="Resources\pozadinaa.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Audi-Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poz2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poz21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poz22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poz33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laguna.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock-photo--d-car-model-on-a-black-background-render-image-with-shine-and-reflection-isolated-parts-of-the-136965911.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1351500.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13515001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13515002.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13515003.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red-cars-image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shadowcatcher_skoda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shadowcatcher_skoda1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shadowcatcher_skoda2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shadowcatcher_skoda3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red-Alfa-Romeo-4C-2014-with-Mountain-Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red-Alfa-Romeo-4C-2014-with-Mountain-Background1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red-Alfa-Romeo-4C-2014-with-Mountain-Background2.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

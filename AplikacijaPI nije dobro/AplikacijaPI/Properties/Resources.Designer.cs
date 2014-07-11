@@ -133,6 +133,26 @@ namespace AplikacijaPI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Foto40_Mercedes_Benz_CLK_Cabriolet {
+            get {
+                object obj = ResourceManager.GetObject("Foto40_Mercedes_Benz_CLK_Cabriolet", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Foto40_Mercedes_Benz_CLK_Cabriolet1 {
+            get {
+                object obj = ResourceManager.GetObject("Foto40_Mercedes_Benz_CLK_Cabriolet1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap laguna {
             get {
                 object obj = ResourceManager.GetObject("laguna", resourceCulture);
@@ -216,6 +236,36 @@ namespace AplikacijaPI.Properties {
         internal static System.Drawing.Bitmap pozadinaPrijava {
             get {
                 object obj = ResourceManager.GetObject("pozadinaPrijava", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Red_Alfa_Romeo_4C_2014_with_Mountain_Background {
+            get {
+                object obj = ResourceManager.GetObject("Red-Alfa-Romeo-4C-2014-with-Mountain-Background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Red_Alfa_Romeo_4C_2014_with_Mountain_Background1 {
+            get {
+                object obj = ResourceManager.GetObject("Red-Alfa-Romeo-4C-2014-with-Mountain-Background1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Red_Alfa_Romeo_4C_2014_with_Mountain_Background2 {
+            get {
+                object obj = ResourceManager.GetObject("Red-Alfa-Romeo-4C-2014-with-Mountain-Background2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
