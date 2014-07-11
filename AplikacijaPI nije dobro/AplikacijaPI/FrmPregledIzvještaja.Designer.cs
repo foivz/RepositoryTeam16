@@ -30,8 +30,11 @@
         {
             this.components = new System.ComponentModel.Container();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.voziloBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.t16_DBDataSet = new AplikacijaPI.T16_DBDataSet();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.korisnikBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.lbl4 = new System.Windows.Forms.Label();
             this.lbl3 = new System.Windows.Forms.Label();
@@ -40,10 +43,6 @@
             this.btn1 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.t16_DBDataSet = new AplikacijaPI.T16_DBDataSet();
-            this.radni_nalogBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.radni_nalogTableAdapter = new AplikacijaPI.T16_DBDataSetTableAdapters.Radni_nalogTableAdapter();
-            this.tableAdapterManager = new AplikacijaPI.T16_DBDataSetTableAdapters.TableAdapterManager();
             this.iDradninalogDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sifrazaposlenikaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.datumDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -51,33 +50,48 @@
             this.iDkorisnikaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.statusDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.popravakDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.korisnikBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.radni_nalogBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.radni_nalogTableAdapter = new AplikacijaPI.T16_DBDataSetTableAdapters.Radni_nalogTableAdapter();
+            this.tableAdapterManager = new AplikacijaPI.T16_DBDataSetTableAdapters.TableAdapterManager();
             this.korisnikTableAdapter = new AplikacijaPI.T16_DBDataSetTableAdapters.KorisnikTableAdapter();
-            this.voziloBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.voziloTableAdapter = new AplikacijaPI.T16_DBDataSetTableAdapters.VoziloTableAdapter();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.t16_DBDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radni_nalogBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.korisnikBindingSource)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.voziloBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.t16_DBDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.korisnikBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radni_nalogBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.voziloBindingSource, "registracijska_oznaka", true));
-            this.dateTimePicker1.Location = new System.Drawing.Point(122, 212);
+            this.dateTimePicker1.Location = new System.Drawing.Point(149, 197);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(115, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(152, 22);
             this.dateTimePicker1.TabIndex = 23;
+            // 
+            // voziloBindingSource
+            // 
+            this.voziloBindingSource.DataMember = "Vozilo";
+            this.voziloBindingSource.DataSource = this.t16_DBDataSet;
+            // 
+            // t16_DBDataSet
+            // 
+            this.t16_DBDataSet.DataSetName = "T16_DBDataSet";
+            this.t16_DBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // comboBox3
             // 
             this.comboBox3.DataSource = this.voziloBindingSource;
             this.comboBox3.DisplayMember = "registracijska_oznaka";
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(122, 156);
+            this.comboBox3.Location = new System.Drawing.Point(151, 141);
+            this.comboBox3.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(115, 21);
+            this.comboBox3.Size = new System.Drawing.Size(152, 24);
             this.comboBox3.TabIndex = 22;
             this.comboBox3.ValueMember = "registracijska_oznaka";
             // 
@@ -86,10 +100,16 @@
             this.comboBox2.DataSource = this.korisnikBindingSource;
             this.comboBox2.DisplayMember = "ime";
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(122, 108);
+            this.comboBox2.Location = new System.Drawing.Point(151, 82);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(115, 21);
+            this.comboBox2.Size = new System.Drawing.Size(152, 24);
             this.comboBox2.TabIndex = 21;
+            // 
+            // korisnikBindingSource
+            // 
+            this.korisnikBindingSource.DataMember = "Korisnik";
+            this.korisnikBindingSource.DataSource = this.t16_DBDataSet;
             // 
             // comboBox1
             // 
@@ -97,53 +117,59 @@
             this.comboBox1.DataSource = this.korisnikBindingSource;
             this.comboBox1.DisplayMember = "sifra_zaposlenika";
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(122, 54);
+            this.comboBox1.Location = new System.Drawing.Point(151, 15);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(115, 21);
+            this.comboBox1.Size = new System.Drawing.Size(152, 24);
             this.comboBox1.TabIndex = 20;
             this.comboBox1.ValueMember = "sifra_zaposlenika";
             // 
             // lbl4
             // 
             this.lbl4.AutoSize = true;
-            this.lbl4.Location = new System.Drawing.Point(36, 212);
+            this.lbl4.Location = new System.Drawing.Point(34, 197);
+            this.lbl4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl4.Name = "lbl4";
-            this.lbl4.Size = new System.Drawing.Size(38, 13);
+            this.lbl4.Size = new System.Drawing.Size(49, 17);
             this.lbl4.TabIndex = 19;
             this.lbl4.Text = "Datum";
             // 
             // lbl3
             // 
             this.lbl3.AutoSize = true;
-            this.lbl3.Location = new System.Drawing.Point(36, 159);
+            this.lbl3.Location = new System.Drawing.Point(36, 145);
+            this.lbl3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl3.Name = "lbl3";
-            this.lbl3.Size = new System.Drawing.Size(35, 13);
+            this.lbl3.Size = new System.Drawing.Size(46, 17);
             this.lbl3.TabIndex = 18;
             this.lbl3.Text = "Vozilo";
             // 
             // lbl2
             // 
             this.lbl2.AutoSize = true;
-            this.lbl2.Location = new System.Drawing.Point(36, 108);
+            this.lbl2.Location = new System.Drawing.Point(36, 82);
+            this.lbl2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl2.Name = "lbl2";
-            this.lbl2.Size = new System.Drawing.Size(35, 13);
+            this.lbl2.Size = new System.Drawing.Size(46, 17);
             this.lbl2.TabIndex = 17;
             this.lbl2.Text = "Klijent";
             // 
             // lbl
             // 
             this.lbl.AutoSize = true;
-            this.lbl.Location = new System.Drawing.Point(36, 58);
+            this.lbl.Location = new System.Drawing.Point(36, 20);
+            this.lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl.Name = "lbl";
-            this.lbl.Size = new System.Drawing.Size(48, 13);
+            this.lbl.Size = new System.Drawing.Size(61, 17);
             this.lbl.TabIndex = 16;
             this.lbl.Text = "RadnikS";
             // 
             // btn1
             // 
-            this.btn1.Location = new System.Drawing.Point(591, 463);
+            this.btn1.Location = new System.Drawing.Point(794, 467);
+            this.btn1.Margin = new System.Windows.Forms.Padding(4);
             this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(86, 23);
+            this.btn1.Size = new System.Drawing.Size(115, 28);
             this.btn1.TabIndex = 24;
             this.btn1.Text = "Glavni izbornik";
             this.btn1.UseVisualStyleBackColor = true;
@@ -151,9 +177,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 463);
+            this.button1.Location = new System.Drawing.Point(22, 467);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(69, 22);
+            this.button1.Size = new System.Drawing.Size(92, 27);
             this.button1.TabIndex = 25;
             this.button1.Text = "Pregled";
             this.button1.UseVisualStyleBackColor = true;
@@ -171,36 +198,11 @@
             this.statusDataGridViewTextBoxColumn,
             this.popravakDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.radni_nalogBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 283);
+            this.dataGridView1.Location = new System.Drawing.Point(22, 245);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(743, 156);
+            this.dataGridView1.Size = new System.Drawing.Size(783, 192);
             this.dataGridView1.TabIndex = 26;
-            // 
-            // t16_DBDataSet
-            // 
-            this.t16_DBDataSet.DataSetName = "T16_DBDataSet";
-            this.t16_DBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // radni_nalogBindingSource
-            // 
-            this.radni_nalogBindingSource.DataMember = "Radni_nalog";
-            this.radni_nalogBindingSource.DataSource = this.t16_DBDataSet;
-            // 
-            // radni_nalogTableAdapter
-            // 
-            this.radni_nalogTableAdapter.ClearBeforeFill = true;
-            // 
-            // tableAdapterManager
-            // 
-            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.Dijelovi_uslugeTableAdapter = null;
-            this.tableAdapterManager.KorisnikTableAdapter = this.korisnikTableAdapter;
-            this.tableAdapterManager.MarkaVozilaTableAdapter = null;
-            this.tableAdapterManager.ModelTableAdapter = null;
-            this.tableAdapterManager.Radni_nalogTableAdapter = this.radni_nalogTableAdapter;
-            this.tableAdapterManager.stavkaTableAdapter = null;
-            this.tableAdapterManager.UpdateOrder = AplikacijaPI.T16_DBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
-            this.tableAdapterManager.VoziloTableAdapter = this.voziloTableAdapter;
             // 
             // iDradninalogDataGridViewTextBoxColumn
             // 
@@ -245,29 +247,50 @@
             this.popravakDataGridViewTextBoxColumn.HeaderText = "popravak";
             this.popravakDataGridViewTextBoxColumn.Name = "popravakDataGridViewTextBoxColumn";
             // 
-            // korisnikBindingSource
+            // radni_nalogBindingSource
             // 
-            this.korisnikBindingSource.DataMember = "Korisnik";
-            this.korisnikBindingSource.DataSource = this.t16_DBDataSet;
+            this.radni_nalogBindingSource.DataMember = "Radni_nalog";
+            this.radni_nalogBindingSource.DataSource = this.t16_DBDataSet;
+            // 
+            // radni_nalogTableAdapter
+            // 
+            this.radni_nalogTableAdapter.ClearBeforeFill = true;
+            // 
+            // tableAdapterManager
+            // 
+            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.Dijelovi_uslugeTableAdapter = null;
+            this.tableAdapterManager.KorisnikTableAdapter = this.korisnikTableAdapter;
+            this.tableAdapterManager.MarkaVozilaTableAdapter = null;
+            this.tableAdapterManager.ModelTableAdapter = null;
+            this.tableAdapterManager.Radni_nalogTableAdapter = this.radni_nalogTableAdapter;
+            this.tableAdapterManager.stavkaTableAdapter = null;
+            this.tableAdapterManager.UpdateOrder = AplikacijaPI.T16_DBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            this.tableAdapterManager.VoziloTableAdapter = this.voziloTableAdapter;
             // 
             // korisnikTableAdapter
             // 
             this.korisnikTableAdapter.ClearBeforeFill = true;
             // 
-            // voziloBindingSource
-            // 
-            this.voziloBindingSource.DataMember = "Vozilo";
-            this.voziloBindingSource.DataSource = this.t16_DBDataSet;
-            // 
             // voziloTableAdapter
             // 
             this.voziloTableAdapter.ClearBeforeFill = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.pictureBox1.Image = global::AplikacijaPI.Properties.Resources.poz33;
+            this.pictureBox1.Location = new System.Drawing.Point(-3, -3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(990, 508);
+            this.pictureBox1.TabIndex = 27;
+            this.pictureBox1.TabStop = false;
+            // 
             // FrmPregledIzvještaja
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(785, 498);
+            this.ClientSize = new System.Drawing.Size(983, 503);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btn1);
@@ -279,14 +302,17 @@
             this.Controls.Add(this.lbl3);
             this.Controls.Add(this.lbl2);
             this.Controls.Add(this.lbl);
+            this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmPregledIzvještaja";
             this.Text = "FrmPregledIzvještaja";
             this.Load += new System.EventHandler(this.FrmPregledIzvještaja_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.t16_DBDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radni_nalogBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.korisnikBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.voziloBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.t16_DBDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.korisnikBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radni_nalogBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -320,5 +346,6 @@
         private System.Windows.Forms.BindingSource korisnikBindingSource;
         private T16_DBDataSetTableAdapters.VoziloTableAdapter voziloTableAdapter;
         private System.Windows.Forms.BindingSource voziloBindingSource;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
