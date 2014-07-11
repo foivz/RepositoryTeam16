@@ -179,5 +179,16 @@ namespace AplikacijaPI.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap stock_photo__d_car_model_on_a_black_background_render_image_with_shine_and_reflection_isolated_parts_of_the_136965911 {
+            get {
+                object obj = ResourceManager.GetObject("stock-photo--d-car-model-on-a-black-background-render-image-with-shine-and-reflec" +
+                        "tion-isolated-parts-of-the-136965911", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

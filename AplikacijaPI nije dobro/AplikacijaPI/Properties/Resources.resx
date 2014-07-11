@@ -118,14 +118,17 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pozadinaAzuriranjeNaloga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pozadinaAzuriranjeNaloga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="8225224692_4dc7f3c824_z" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\8225224692_4dc7f3c824_z.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pozadinaPrijava" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pozadinaPrijava.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="pozadinaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pozadinaa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laguna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\laguna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pozadinaIzradaKorPod" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pozadinaIzradaKorPod.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,8 +139,8 @@
   <data name="Audi-Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Audi-Background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pozadinaAzuriranjeNaloga" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pozadinaAzuriranjeNaloga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pozadinaPrijava" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pozadinaPrijava.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Bez naslova" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bez naslova.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,7 +154,7 @@
   <data name="poz33" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\poz33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="laguna" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\laguna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="stock-photo--d-car-model-on-a-black-background-render-image-with-shine-and-reflection-isolated-parts-of-the-136965911" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stock-photo--d-car-model-on-a-black-background-render-image-with-shine-and-reflection-isolated-parts-of-the-136965911.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
