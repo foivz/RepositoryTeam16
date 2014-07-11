@@ -29,5 +29,10 @@ namespace AplikacijaPI
         {
             Close();
         }
+
+        private void picBoxNaziv_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
