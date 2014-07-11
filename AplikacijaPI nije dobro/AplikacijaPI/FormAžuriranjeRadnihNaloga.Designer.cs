@@ -48,177 +48,208 @@
             this.txtVozilo = new System.Windows.Forms.TextBox();
             this.btnSpremi = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblRadniNalog
             // 
             this.lblRadniNalog.AutoSize = true;
-            this.lblRadniNalog.Location = new System.Drawing.Point(25, 20);
+            this.lblRadniNalog.Location = new System.Drawing.Point(21, 12);
+            this.lblRadniNalog.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRadniNalog.Name = "lblRadniNalog";
-            this.lblRadniNalog.Size = new System.Drawing.Size(78, 13);
+            this.lblRadniNalog.Size = new System.Drawing.Size(102, 17);
             this.lblRadniNalog.TabIndex = 0;
             this.lblRadniNalog.Text = "ID-Radni nalog";
             // 
             // lblIDzap
             // 
             this.lblIDzap.AutoSize = true;
-            this.lblIDzap.Location = new System.Drawing.Point(25, 58);
+            this.lblIDzap.Location = new System.Drawing.Point(21, 58);
+            this.lblIDzap.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblIDzap.Name = "lblIDzap";
-            this.lblIDzap.Size = new System.Drawing.Size(71, 13);
+            this.lblIDzap.Size = new System.Drawing.Size(92, 17);
             this.lblIDzap.TabIndex = 1;
             this.lblIDzap.Text = "ID zaposlenik";
             // 
             // lblOIB
             // 
             this.lblOIB.AutoSize = true;
-            this.lblOIB.Location = new System.Drawing.Point(25, 90);
+            this.lblOIB.Location = new System.Drawing.Point(21, 98);
+            this.lblOIB.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblOIB.Name = "lblOIB";
-            this.lblOIB.Size = new System.Drawing.Size(25, 13);
+            this.lblOIB.Size = new System.Drawing.Size(31, 17);
             this.lblOIB.TabIndex = 2;
             this.lblOIB.Text = "OIB";
             // 
             // lblDatum
             // 
             this.lblDatum.AutoSize = true;
-            this.lblDatum.Location = new System.Drawing.Point(25, 128);
+            this.lblDatum.Location = new System.Drawing.Point(21, 145);
+            this.lblDatum.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDatum.Name = "lblDatum";
-            this.lblDatum.Size = new System.Drawing.Size(38, 13);
+            this.lblDatum.Size = new System.Drawing.Size(49, 17);
             this.lblDatum.TabIndex = 3;
             this.lblDatum.Text = "Datum";
             // 
             // lblIznos
             // 
             this.lblIznos.AutoSize = true;
-            this.lblIznos.Location = new System.Drawing.Point(25, 164);
+            this.lblIznos.Location = new System.Drawing.Point(21, 189);
+            this.lblIznos.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblIznos.Name = "lblIznos";
-            this.lblIznos.Size = new System.Drawing.Size(32, 13);
+            this.lblIznos.Size = new System.Drawing.Size(41, 17);
             this.lblIznos.TabIndex = 4;
             this.lblIznos.Text = "Iznos";
             // 
             // lblStatus
             // 
             this.lblStatus.AutoSize = true;
-            this.lblStatus.Location = new System.Drawing.Point(25, 200);
+            this.lblStatus.Location = new System.Drawing.Point(21, 233);
+            this.lblStatus.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(37, 13);
+            this.lblStatus.Size = new System.Drawing.Size(48, 17);
             this.lblStatus.TabIndex = 5;
             this.lblStatus.Text = "Status";
             // 
             // lblPopravak
             // 
             this.lblPopravak.AutoSize = true;
-            this.lblPopravak.Location = new System.Drawing.Point(25, 240);
+            this.lblPopravak.Location = new System.Drawing.Point(21, 282);
+            this.lblPopravak.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPopravak.Name = "lblPopravak";
-            this.lblPopravak.Size = new System.Drawing.Size(53, 13);
+            this.lblPopravak.Size = new System.Drawing.Size(68, 17);
             this.lblPopravak.TabIndex = 6;
             this.lblPopravak.Text = "Popravak";
             // 
             // lblKlijent
             // 
             this.lblKlijent.AutoSize = true;
-            this.lblKlijent.Location = new System.Drawing.Point(25, 275);
+            this.lblKlijent.Location = new System.Drawing.Point(21, 325);
+            this.lblKlijent.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblKlijent.Name = "lblKlijent";
-            this.lblKlijent.Size = new System.Drawing.Size(35, 13);
+            this.lblKlijent.Size = new System.Drawing.Size(46, 17);
             this.lblKlijent.TabIndex = 7;
             this.lblKlijent.Text = "Klijent";
             // 
             // lblVozilo
             // 
             this.lblVozilo.AutoSize = true;
-            this.lblVozilo.Location = new System.Drawing.Point(25, 318);
+            this.lblVozilo.Location = new System.Drawing.Point(21, 378);
+            this.lblVozilo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblVozilo.Name = "lblVozilo";
-            this.lblVozilo.Size = new System.Drawing.Size(35, 13);
+            this.lblVozilo.Size = new System.Drawing.Size(46, 17);
             this.lblVozilo.TabIndex = 8;
             this.lblVozilo.Text = "Vozilo";
             // 
             // tetRadniNalog
             // 
-            this.tetRadniNalog.Location = new System.Drawing.Point(116, 20);
+            this.tetRadniNalog.Location = new System.Drawing.Point(143, 12);
+            this.tetRadniNalog.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tetRadniNalog.Name = "tetRadniNalog";
-            this.tetRadniNalog.Size = new System.Drawing.Size(71, 20);
+            this.tetRadniNalog.Size = new System.Drawing.Size(93, 22);
             this.tetRadniNalog.TabIndex = 9;
             // 
             // tetZaposlenik
             // 
-            this.tetZaposlenik.Location = new System.Drawing.Point(116, 58);
+            this.tetZaposlenik.Location = new System.Drawing.Point(143, 58);
+            this.tetZaposlenik.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tetZaposlenik.Name = "tetZaposlenik";
-            this.tetZaposlenik.Size = new System.Drawing.Size(71, 20);
+            this.tetZaposlenik.Size = new System.Drawing.Size(93, 22);
             this.tetZaposlenik.TabIndex = 10;
             // 
             // tetOIB
             // 
-            this.tetOIB.Location = new System.Drawing.Point(116, 90);
+            this.tetOIB.Location = new System.Drawing.Point(143, 98);
+            this.tetOIB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tetOIB.Name = "tetOIB";
-            this.tetOIB.Size = new System.Drawing.Size(71, 20);
+            this.tetOIB.Size = new System.Drawing.Size(93, 22);
             this.tetOIB.TabIndex = 11;
             // 
             // txtIznos
             // 
-            this.txtIznos.Location = new System.Drawing.Point(116, 164);
+            this.txtIznos.Location = new System.Drawing.Point(143, 189);
+            this.txtIznos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtIznos.Name = "txtIznos";
-            this.txtIznos.Size = new System.Drawing.Size(71, 20);
+            this.txtIznos.Size = new System.Drawing.Size(93, 22);
             this.txtIznos.TabIndex = 12;
             // 
             // txtDatum
             // 
-            this.txtDatum.Location = new System.Drawing.Point(116, 128);
+            this.txtDatum.Location = new System.Drawing.Point(143, 145);
+            this.txtDatum.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtDatum.Name = "txtDatum";
-            this.txtDatum.Size = new System.Drawing.Size(71, 20);
+            this.txtDatum.Size = new System.Drawing.Size(93, 22);
             this.txtDatum.TabIndex = 13;
             // 
             // txtPopravak
             // 
-            this.txtPopravak.Location = new System.Drawing.Point(116, 236);
+            this.txtPopravak.Location = new System.Drawing.Point(143, 277);
+            this.txtPopravak.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPopravak.Multiline = true;
             this.txtPopravak.Name = "txtPopravak";
-            this.txtPopravak.Size = new System.Drawing.Size(71, 20);
+            this.txtPopravak.Size = new System.Drawing.Size(93, 24);
             this.txtPopravak.TabIndex = 14;
             // 
             // txtStatus
             // 
-            this.txtStatus.Location = new System.Drawing.Point(116, 200);
+            this.txtStatus.Location = new System.Drawing.Point(143, 233);
+            this.txtStatus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtStatus.Name = "txtStatus";
-            this.txtStatus.Size = new System.Drawing.Size(71, 20);
+            this.txtStatus.Size = new System.Drawing.Size(93, 22);
             this.txtStatus.TabIndex = 15;
             // 
             // txtKlijent
             // 
-            this.txtKlijent.Location = new System.Drawing.Point(116, 272);
+            this.txtKlijent.Location = new System.Drawing.Point(143, 322);
+            this.txtKlijent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtKlijent.Name = "txtKlijent";
-            this.txtKlijent.Size = new System.Drawing.Size(71, 20);
+            this.txtKlijent.Size = new System.Drawing.Size(93, 22);
             this.txtKlijent.TabIndex = 16;
             // 
             // txtVozilo
             // 
-            this.txtVozilo.Location = new System.Drawing.Point(116, 315);
+            this.txtVozilo.Location = new System.Drawing.Point(143, 375);
+            this.txtVozilo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtVozilo.Name = "txtVozilo";
-            this.txtVozilo.Size = new System.Drawing.Size(71, 20);
+            this.txtVozilo.Size = new System.Drawing.Size(93, 22);
             this.txtVozilo.TabIndex = 17;
             // 
             // btnSpremi
             // 
-            this.btnSpremi.Location = new System.Drawing.Point(12, 371);
+            this.btnSpremi.Location = new System.Drawing.Point(24, 413);
+            this.btnSpremi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSpremi.Name = "btnSpremi";
-            this.btnSpremi.Size = new System.Drawing.Size(113, 37);
+            this.btnSpremi.Size = new System.Drawing.Size(124, 37);
             this.btnSpremi.TabIndex = 18;
             this.btnSpremi.Text = "Spremi promjene";
             this.btnSpremi.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(280, 371);
+            this.button1.Location = new System.Drawing.Point(293, 413);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(105, 37);
+            this.button1.Size = new System.Drawing.Size(123, 37);
             this.button1.TabIndex = 19;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::AplikacijaPI.Properties.Resources.pozadinaAzuriranjeNaloga;
+            this.pictureBox1.Location = new System.Drawing.Point(-1, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(527, 469);
+            this.pictureBox1.TabIndex = 20;
+            this.pictureBox1.TabStop = false;
+            // 
             // FormAžuriranjeRadnihNaloga
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(397, 420);
+            this.ClientSize = new System.Drawing.Size(523, 463);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnSpremi);
             this.Controls.Add(this.txtVozilo);
@@ -239,8 +270,11 @@
             this.Controls.Add(this.lblOIB);
             this.Controls.Add(this.lblIDzap);
             this.Controls.Add(this.lblRadniNalog);
+            this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormAžuriranjeRadnihNaloga";
             this.Text = "FormAžuriranjeRadnihNaloga";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -268,5 +302,6 @@
         private System.Windows.Forms.TextBox txtVozilo;
         private System.Windows.Forms.Button btnSpremi;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
