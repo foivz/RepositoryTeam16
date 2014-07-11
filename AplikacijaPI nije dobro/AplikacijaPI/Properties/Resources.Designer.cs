@@ -63,6 +63,46 @@ namespace AplikacijaPI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1351500 {
+            get {
+                object obj = ResourceManager.GetObject("1351500", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _13515001 {
+            get {
+                object obj = ResourceManager.GetObject("13515001", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _13515002 {
+            get {
+                object obj = ResourceManager.GetObject("13515002", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _13515003 {
+            get {
+                object obj = ResourceManager.GetObject("13515003", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _8225224692_4dc7f3c824_z {
             get {
                 object obj = ResourceManager.GetObject("8225224692_4dc7f3c824_z", resourceCulture);
@@ -176,6 +216,56 @@ namespace AplikacijaPI.Properties {
         internal static System.Drawing.Bitmap pozadinaPrijava {
             get {
                 object obj = ResourceManager.GetObject("pozadinaPrijava", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap red_cars_image {
+            get {
+                object obj = ResourceManager.GetObject("red-cars-image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shadowcatcher_skoda {
+            get {
+                object obj = ResourceManager.GetObject("shadowcatcher_skoda", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shadowcatcher_skoda1 {
+            get {
+                object obj = ResourceManager.GetObject("shadowcatcher_skoda1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shadowcatcher_skoda2 {
+            get {
+                object obj = ResourceManager.GetObject("shadowcatcher_skoda2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shadowcatcher_skoda3 {
+            get {
+                object obj = ResourceManager.GetObject("shadowcatcher_skoda3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
