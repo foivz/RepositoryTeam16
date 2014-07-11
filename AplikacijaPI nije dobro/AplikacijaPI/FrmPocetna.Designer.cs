@@ -38,7 +38,7 @@
             // 
             // btnPrijava
             // 
-            this.btnPrijava.Location = new System.Drawing.Point(61, 242);
+            this.btnPrijava.Location = new System.Drawing.Point(61, 112);
             this.btnPrijava.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPrijava.Name = "btnPrijava";
             this.btnPrijava.Size = new System.Drawing.Size(141, 49);
@@ -49,7 +49,7 @@
             // 
             // btnIzlaz
             // 
-            this.btnIzlaz.Location = new System.Drawing.Point(277, 242);
+            this.btnIzlaz.Location = new System.Drawing.Point(277, 112);
             this.btnIzlaz.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnIzlaz.Name = "btnIzlaz";
             this.btnIzlaz.Size = new System.Drawing.Size(127, 52);
@@ -77,7 +77,7 @@
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Comic Sans MS", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.textBox1.Location = new System.Drawing.Point(61, 52);
+            this.textBox1.Location = new System.Drawing.Point(61, 12);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(343, 56);
             this.textBox1.TabIndex = 4;
@@ -89,9 +89,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(495, 359);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.picBoxNaziv);
             this.Controls.Add(this.btnIzlaz);
             this.Controls.Add(this.btnPrijava);
+            this.Controls.Add(this.picBoxNaziv);
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmPocetna";
             this.Text = "FrmPocetna";
