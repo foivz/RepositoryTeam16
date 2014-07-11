@@ -63,6 +63,16 @@ namespace AplikacijaPI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _8225224692_4dc7f3c824_z {
+            get {
+                object obj = ResourceManager.GetObject("8225224692_4dc7f3c824_z", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Bez_naslova {
             get {
                 object obj = ResourceManager.GetObject("Bez naslova", resourceCulture);

@@ -118,6 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pozadinaIzradaKorPod" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pozadinaIzradaKorPod.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pozadinaAzuriranjeNaloga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pozadinaAzuriranjeNaloga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -127,7 +130,7 @@
   <data name="Bez naslova" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bez naslova.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pozadinaIzradaKorPod" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pozadinaIzradaKorPod.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="8225224692_4dc7f3c824_z" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8225224692_4dc7f3c824_z.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
