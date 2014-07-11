@@ -227,6 +227,18 @@
   <ItemGroup>
     <None Include="Resources\pozadinaPrijava.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pozadinaAzuriranjeNaloga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pozadinaIzradaKorPod.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8225224692_4dc7f3c824_z.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pozadinaa.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

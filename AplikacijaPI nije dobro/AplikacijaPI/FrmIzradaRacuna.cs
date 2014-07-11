@@ -28,5 +28,10 @@ namespace AplikacijaPI
             glavni.Show();
             this.Close();
         }
+
+        private void FrmIzradaRacuna_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
