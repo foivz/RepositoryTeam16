@@ -99,7 +99,6 @@ C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\Apli
 C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.NoviKorisnik.resources
 C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.NovoVozilo.resources
 C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.Properties.Resources.resources
-C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.RadniNalog.resources
 C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.csproj.GenerateResource.Cache
 C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmGlavniIzbornikPrijem.resources
 C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmGlavniIzbornikRadionica.resources
