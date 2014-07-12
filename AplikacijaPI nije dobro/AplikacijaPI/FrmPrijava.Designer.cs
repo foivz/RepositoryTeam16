@@ -47,10 +47,9 @@
             // lblKorIme
             // 
             this.lblKorIme.AutoSize = true;
-            this.lblKorIme.Location = new System.Drawing.Point(194, 22);
-            this.lblKorIme.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblKorIme.Location = new System.Drawing.Point(146, 18);
             this.lblKorIme.Name = "lblKorIme";
-            this.lblKorIme.Size = new System.Drawing.Size(99, 17);
+            this.lblKorIme.Size = new System.Drawing.Size(75, 13);
             this.lblKorIme.TabIndex = 0;
             this.lblKorIme.Text = "Korisničko ime";
             this.lblKorIme.Click += new System.EventHandler(this.label1_Click);
@@ -58,27 +57,24 @@
             // lblLoz
             // 
             this.lblLoz.AutoSize = true;
-            this.lblLoz.Location = new System.Drawing.Point(194, 71);
-            this.lblLoz.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblLoz.Location = new System.Drawing.Point(146, 58);
             this.lblLoz.Name = "lblLoz";
-            this.lblLoz.Size = new System.Drawing.Size(57, 17);
+            this.lblLoz.Size = new System.Drawing.Size(44, 13);
             this.lblLoz.TabIndex = 2;
             this.lblLoz.Text = "Lozinka";
             // 
             // txtLoz
             // 
-            this.txtLoz.Location = new System.Drawing.Point(310, 71);
-            this.txtLoz.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLoz.Location = new System.Drawing.Point(232, 58);
             this.txtLoz.Name = "txtLoz";
-            this.txtLoz.Size = new System.Drawing.Size(160, 22);
+            this.txtLoz.Size = new System.Drawing.Size(121, 20);
             this.txtLoz.TabIndex = 3;
             // 
             // btn1
             // 
-            this.btn1.Location = new System.Drawing.Point(197, 162);
-            this.btn1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn1.Location = new System.Drawing.Point(148, 132);
             this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(256, 28);
+            this.btn1.Size = new System.Drawing.Size(192, 23);
             this.btn1.TabIndex = 4;
             this.btn1.Text = "Prijava";
             this.btn1.UseVisualStyleBackColor = true;
@@ -90,10 +86,9 @@
             this.comboBox1.DataSource = this.korisnikBindingSource;
             this.comboBox1.DisplayMember = "korisnicko_ime";
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(310, 22);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox1.Location = new System.Drawing.Point(232, 18);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(160, 24);
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 5;
             this.comboBox1.ValueMember = "korisnicko_ime";
             // 
@@ -126,24 +121,25 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::AplikacijaPI.Properties.Resources.pozadinaPrijava;
-            this.pictureBox1.Location = new System.Drawing.Point(-5, 1);
+            this.pictureBox1.Location = new System.Drawing.Point(-4, 1);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(518, 236);
+            this.pictureBox1.Size = new System.Drawing.Size(388, 192);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // FrmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(511, 237);
+            this.ClientSize = new System.Drawing.Size(383, 193);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.btn1);
             this.Controls.Add(this.txtLoz);
             this.Controls.Add(this.lblLoz);
             this.Controls.Add(this.lblKorIme);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmLogin";
             this.Text = "Prijava";
             this.Load += new System.EventHandler(this.Form1_Load);
