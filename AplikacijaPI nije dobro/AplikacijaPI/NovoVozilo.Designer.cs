@@ -85,27 +85,30 @@
             // iD_modelLabel
             // 
             iD_modelLabel.AutoSize = true;
-            iD_modelLabel.Location = new System.Drawing.Point(34, 84);
+            iD_modelLabel.Location = new System.Drawing.Point(45, 104);
+            iD_modelLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             iD_modelLabel.Name = "iD_modelLabel";
-            iD_modelLabel.Size = new System.Drawing.Size(52, 13);
+            iD_modelLabel.Size = new System.Drawing.Size(67, 17);
             iD_modelLabel.TabIndex = 30;
             iD_modelLabel.Text = "ID model:";
             // 
             // lbl1
             // 
             this.lbl1.AutoSize = true;
-            this.lbl1.Location = new System.Drawing.Point(34, 34);
+            this.lbl1.Location = new System.Drawing.Point(45, 42);
+            this.lbl1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(55, 13);
+            this.lbl1.Size = new System.Drawing.Size(70, 17);
             this.lbl1.TabIndex = 0;
             this.lbl1.Text = "VIN vozila";
             // 
             // textBox1
             // 
             this.textBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.voziloBindingSource, "VIN", true));
-            this.textBox1.Location = new System.Drawing.Point(145, 32);
+            this.textBox1.Location = new System.Drawing.Point(193, 39);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(167, 20);
+            this.textBox1.Size = new System.Drawing.Size(221, 22);
             this.textBox1.TabIndex = 1;
             // 
             // voziloBindingSource
@@ -121,9 +124,10 @@
             // lbl3
             // 
             this.lbl3.AutoSize = true;
-            this.lbl3.Location = new System.Drawing.Point(36, 136);
+            this.lbl3.Location = new System.Drawing.Point(48, 167);
+            this.lbl3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl3.Name = "lbl3";
-            this.lbl3.Size = new System.Drawing.Size(41, 13);
+            this.lbl3.Size = new System.Drawing.Size(53, 17);
             this.lbl3.TabIndex = 4;
             this.lbl3.Text = "Vlasnik";
             // 
@@ -133,9 +137,10 @@
             this.comboBox1.DataSource = this.korisnikBindingSource;
             this.comboBox1.DisplayMember = "ime";
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(145, 132);
+            this.comboBox1.Location = new System.Drawing.Point(193, 163);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(165, 21);
+            this.comboBox1.Size = new System.Drawing.Size(219, 24);
             this.comboBox1.TabIndex = 5;
             // 
             // korisnikBindingSource
@@ -146,94 +151,105 @@
             // lbl4
             // 
             this.lbl4.AutoSize = true;
-            this.lbl4.Location = new System.Drawing.Point(34, 189);
+            this.lbl4.Location = new System.Drawing.Point(45, 233);
+            this.lbl4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl4.Name = "lbl4";
-            this.lbl4.Size = new System.Drawing.Size(101, 13);
+            this.lbl4.Size = new System.Drawing.Size(133, 17);
             this.lbl4.TabIndex = 6;
             this.lbl4.Text = "Registarska oznaka";
             // 
             // textBox3
             // 
             this.textBox3.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.voziloBindingSource, "registracijska_oznaka", true));
-            this.textBox3.Location = new System.Drawing.Point(145, 185);
+            this.textBox3.Location = new System.Drawing.Point(193, 228);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(166, 20);
+            this.textBox3.Size = new System.Drawing.Size(220, 22);
             this.textBox3.TabIndex = 7;
             // 
             // lbl5
             // 
             this.lbl5.AutoSize = true;
-            this.lbl5.Location = new System.Drawing.Point(41, 240);
+            this.lbl5.Location = new System.Drawing.Point(55, 295);
+            this.lbl5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl5.Name = "lbl5";
-            this.lbl5.Size = new System.Drawing.Size(28, 13);
+            this.lbl5.Size = new System.Drawing.Size(36, 17);
             this.lbl5.TabIndex = 8;
             this.lbl5.Text = "Boja";
             // 
             // lbl6
             // 
             this.lbl6.AutoSize = true;
-            this.lbl6.Location = new System.Drawing.Point(35, 284);
+            this.lbl6.Location = new System.Drawing.Point(47, 349);
+            this.lbl6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl6.Name = "lbl6";
-            this.lbl6.Size = new System.Drawing.Size(99, 13);
+            this.lbl6.Size = new System.Drawing.Size(132, 17);
             this.lbl6.TabIndex = 9;
             this.lbl6.Text = "Godina Proizvodnje";
             // 
             // lbl7
             // 
             this.lbl7.AutoSize = true;
-            this.lbl7.Location = new System.Drawing.Point(35, 359);
+            this.lbl7.Location = new System.Drawing.Point(47, 442);
+            this.lbl7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl7.Name = "lbl7";
-            this.lbl7.Size = new System.Drawing.Size(38, 13);
+            this.lbl7.Size = new System.Drawing.Size(49, 17);
             this.lbl7.TabIndex = 10;
             this.lbl7.Text = "Snaga";
             // 
             // lbl8
             // 
             this.lbl8.AutoSize = true;
-            this.lbl8.Location = new System.Drawing.Point(29, 404);
+            this.lbl8.Location = new System.Drawing.Point(39, 497);
+            this.lbl8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl8.Name = "lbl8";
-            this.lbl8.Size = new System.Drawing.Size(82, 13);
+            this.lbl8.Size = new System.Drawing.Size(110, 17);
             this.lbl8.TabIndex = 11;
             this.lbl8.Text = "Prva registracija";
             // 
             // textBox4
             // 
             this.textBox4.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.voziloBindingSource, "boja", true));
-            this.textBox4.Location = new System.Drawing.Point(145, 232);
+            this.textBox4.Location = new System.Drawing.Point(193, 285);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(164, 20);
+            this.textBox4.Size = new System.Drawing.Size(217, 22);
             this.textBox4.TabIndex = 12;
             // 
             // textBox5
             // 
             this.textBox5.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.voziloBindingSource, "godina_prozivodnje", true));
-            this.textBox5.Location = new System.Drawing.Point(145, 279);
+            this.textBox5.Location = new System.Drawing.Point(193, 343);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(163, 20);
+            this.textBox5.Size = new System.Drawing.Size(216, 22);
             this.textBox5.TabIndex = 13;
             this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // textBox6
             // 
             this.textBox6.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.voziloBindingSource, "snaga", true));
-            this.textBox6.Location = new System.Drawing.Point(138, 356);
+            this.textBox6.Location = new System.Drawing.Point(184, 438);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(4);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(167, 20);
+            this.textBox6.Size = new System.Drawing.Size(221, 22);
             this.textBox6.TabIndex = 14;
             // 
             // textBox7
             // 
             this.textBox7.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.voziloBindingSource, "prva_registracija", true));
-            this.textBox7.Location = new System.Drawing.Point(138, 401);
+            this.textBox7.Location = new System.Drawing.Point(184, 494);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(4);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(166, 20);
+            this.textBox7.Size = new System.Drawing.Size(220, 22);
             this.textBox7.TabIndex = 15;
             // 
             // btn1
             // 
-            this.btn1.Location = new System.Drawing.Point(255, 471);
+            this.btn1.Location = new System.Drawing.Point(340, 580);
+            this.btn1.Margin = new System.Windows.Forms.Padding(4);
             this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(86, 23);
+            this.btn1.Size = new System.Drawing.Size(115, 28);
             this.btn1.TabIndex = 26;
             this.btn1.Text = "Glavni izbornik";
             this.btn1.UseVisualStyleBackColor = true;
@@ -241,9 +257,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(30, 471);
+            this.button1.Location = new System.Drawing.Point(40, 580);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(79, 23);
+            this.button1.Size = new System.Drawing.Size(105, 28);
             this.button1.TabIndex = 27;
             this.button1.Text = "Spremi";
             this.button1.UseVisualStyleBackColor = true;
@@ -252,18 +269,20 @@
             // lbl9
             // 
             this.lbl9.AutoSize = true;
-            this.lbl9.Location = new System.Drawing.Point(31, 444);
+            this.lbl9.Location = new System.Drawing.Point(41, 547);
+            this.lbl9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl9.Name = "lbl9";
-            this.lbl9.Size = new System.Drawing.Size(38, 13);
+            this.lbl9.Size = new System.Drawing.Size(50, 17);
             this.lbl9.TabIndex = 28;
             this.lbl9.Text = "Gorivo";
             // 
             // textBox8
             // 
             this.textBox8.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.voziloBindingSource, "gorivo", true));
-            this.textBox8.Location = new System.Drawing.Point(135, 437);
+            this.textBox8.Location = new System.Drawing.Point(180, 538);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(4);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(163, 20);
+            this.textBox8.Size = new System.Drawing.Size(216, 22);
             this.textBox8.TabIndex = 29;
             // 
             // voziloTableAdapter
@@ -308,7 +327,7 @@
             this.voziloBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.voziloBindingNavigator.Name = "voziloBindingNavigator";
             this.voziloBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.voziloBindingNavigator.Size = new System.Drawing.Size(401, 25);
+            this.voziloBindingNavigator.Size = new System.Drawing.Size(535, 27);
             this.voziloBindingNavigator.TabIndex = 30;
             this.voziloBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -318,13 +337,13 @@
             this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
             this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 24);
             this.bindingNavigatorAddNewItem.Text = "Add new";
             // 
             // bindingNavigatorCountItem
             // 
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 22);
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(45, 24);
             this.bindingNavigatorCountItem.Text = "of {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
             // 
@@ -334,7 +353,7 @@
             this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
             this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
             this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 24);
             this.bindingNavigatorDeleteItem.Text = "Delete";
             // 
             // bindingNavigatorMoveFirstItem
@@ -343,7 +362,7 @@
             this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
             this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
             this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(23, 24);
             this.bindingNavigatorMoveFirstItem.Text = "Move first";
             // 
             // bindingNavigatorMovePreviousItem
@@ -352,27 +371,27 @@
             this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
             this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
             this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(23, 24);
             this.bindingNavigatorMovePreviousItem.Text = "Move previous";
             // 
             // bindingNavigatorSeparator
             // 
             this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 25);
+            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 27);
             // 
             // bindingNavigatorPositionItem
             // 
             this.bindingNavigatorPositionItem.AccessibleName = "Position";
             this.bindingNavigatorPositionItem.AutoSize = false;
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
-            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 23);
+            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(65, 27);
             this.bindingNavigatorPositionItem.Text = "0";
             this.bindingNavigatorPositionItem.ToolTipText = "Current position";
             // 
             // bindingNavigatorSeparator1
             // 
             this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 25);
+            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 27);
             // 
             // bindingNavigatorMoveNextItem
             // 
@@ -380,7 +399,7 @@
             this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
             this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
             this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(23, 24);
             this.bindingNavigatorMoveNextItem.Text = "Move next";
             // 
             // bindingNavigatorMoveLastItem
@@ -389,20 +408,20 @@
             this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
             this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
             this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(23, 24);
             this.bindingNavigatorMoveLastItem.Text = "Move last";
             // 
             // bindingNavigatorSeparator2
             // 
             this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 25);
+            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 27);
             // 
             // voziloBindingNavigatorSaveItem
             // 
             this.voziloBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.voziloBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("voziloBindingNavigatorSaveItem.Image")));
             this.voziloBindingNavigatorSaveItem.Name = "voziloBindingNavigatorSaveItem";
-            this.voziloBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 22);
+            this.voziloBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 24);
             this.voziloBindingNavigatorSaveItem.Text = "Save Data";
             // 
             // korisnikTableAdapter
@@ -425,28 +444,27 @@
             this.iD_modelComboBox.DataSource = this.modelBindingSource;
             this.iD_modelComboBox.DisplayMember = "naziv";
             this.iD_modelComboBox.FormattingEnabled = true;
-            this.iD_modelComboBox.Location = new System.Drawing.Point(146, 84);
+            this.iD_modelComboBox.Location = new System.Drawing.Point(195, 104);
+            this.iD_modelComboBox.Margin = new System.Windows.Forms.Padding(4);
             this.iD_modelComboBox.Name = "iD_modelComboBox";
-            this.iD_modelComboBox.Size = new System.Drawing.Size(163, 21);
+            this.iD_modelComboBox.Size = new System.Drawing.Size(216, 24);
             this.iD_modelComboBox.TabIndex = 31;
             this.iD_modelComboBox.ValueMember = "ID_model";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::AplikacijaPI.Properties.Resources.Red_Alfa_Romeo_4C_2014_with_Mountain_Background2;
-            this.pictureBox1.Location = new System.Drawing.Point(-90, 24);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(-120, 30);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(502, 536);
+            this.pictureBox1.Size = new System.Drawing.Size(669, 660);
             this.pictureBox1.TabIndex = 32;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // NovoVozilo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(401, 536);
+            this.ClientSize = new System.Drawing.Size(535, 660);
             this.Controls.Add(iD_modelLabel);
             this.Controls.Add(this.iD_modelComboBox);
             this.Controls.Add(this.voziloBindingNavigator);
@@ -469,6 +487,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lbl1);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "NovoVozilo";
             this.Text = "NovoVozilo";
             this.Load += new System.EventHandler(this.NovoVozilo_Load);
