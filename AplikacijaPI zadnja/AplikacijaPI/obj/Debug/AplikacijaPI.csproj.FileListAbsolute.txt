@@ -1,0 +1,130 @@
+D:\---faks---\6.SEMESTAR\PI-Programsko inženjerstvo\programi\program\AplikacijaPI\AplikacijaPI\bin\Debug\AplikacijaPI.exe.config
+D:\---faks---\6.SEMESTAR\PI-Programsko inženjerstvo\programi\program\AplikacijaPI\AplikacijaPI\bin\Debug\AplikacijaPI.exe
+D:\---faks---\6.SEMESTAR\PI-Programsko inženjerstvo\programi\program\AplikacijaPI\AplikacijaPI\bin\Debug\AplikacijaPI.pdb
+D:\---faks---\6.SEMESTAR\PI-Programsko inženjerstvo\programi\program\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.csprojResolveAssemblyReference.cache
+D:\---faks---\6.SEMESTAR\PI-Programsko inženjerstvo\programi\program\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.FrmLogin.resources
+D:\---faks---\6.SEMESTAR\PI-Programsko inženjerstvo\programi\program\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.Properties.Resources.resources
+D:\---faks---\6.SEMESTAR\PI-Programsko inženjerstvo\programi\program\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.csproj.GenerateResource.Cache
+D:\---faks---\6.SEMESTAR\PI-Programsko inženjerstvo\programi\program\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.exe
+D:\---faks---\6.SEMESTAR\PI-Programsko inženjerstvo\programi\program\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.pdb
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\AplikacijaPI\AplikacijaPI\bin\Debug\AplikacijaPI.exe.config
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.exe
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.pdb
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\AplikacijaPI\AplikacijaPI\bin\Debug\AplikacijaPI.exe
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\AplikacijaPI\AplikacijaPI\bin\Debug\AplikacijaPI.pdb
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.csprojResolveAssemblyReference.cache
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.FormAžuriranjeRadnihNaloga.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.FrmGlavniIzbornik.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.FrmIzdavanjeKorisnickihPOdataka.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.FrmIzradaRacuna.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.FrmIzradaRadnogNaloga.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.FrmPocetna.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.FrmPregledIzvještaja.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.FrmPregledPopravaka.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.FrmPregledRadnihNaloga.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.FrmLogin.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.FrmUnosDijelova.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.FrmUnosKorisnikaVozila.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.NoviKorisnik.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.NovoVozilo.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.Properties.Resources.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.RadniNalog.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.csproj.GenerateResource.Cache
+C:\PI aplikacija i sve uz projekt\Projekt\AplikacijaPI\AplikacijaPI\bin\Debug\AplikacijaPI.exe.config
+C:\PI aplikacija i sve uz projekt\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.exe
+C:\PI aplikacija i sve uz projekt\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.pdb
+C:\PI aplikacija i sve uz projekt\Projekt\AplikacijaPI\AplikacijaPI\bin\Debug\AplikacijaPI.exe
+C:\PI aplikacija i sve uz projekt\Projekt\AplikacijaPI\AplikacijaPI\bin\Debug\AplikacijaPI.pdb
+C:\PI aplikacija i sve uz projekt\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.csprojResolveAssemblyReference.cache
+C:\PI aplikacija i sve uz projekt\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.FormAžuriranjeRadnihNaloga.resources
+C:\PI aplikacija i sve uz projekt\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.FrmGlavniIzbornik.resources
+C:\PI aplikacija i sve uz projekt\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.FrmIzdavanjeKorisnickihPOdataka.resources
+C:\PI aplikacija i sve uz projekt\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.FrmIzradaRacuna.resources
+C:\PI aplikacija i sve uz projekt\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.FrmIzradaRadnogNaloga.resources
+C:\PI aplikacija i sve uz projekt\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.FrmPocetna.resources
+C:\PI aplikacija i sve uz projekt\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.FrmPregledIzvještaja.resources
+C:\PI aplikacija i sve uz projekt\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.FrmPregledPopravaka.resources
+C:\PI aplikacija i sve uz projekt\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.FrmPregledRadnihNaloga.resources
+C:\PI aplikacija i sve uz projekt\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.FrmLogin.resources
+C:\PI aplikacija i sve uz projekt\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.FrmUnosDijelova.resources
+C:\PI aplikacija i sve uz projekt\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.FrmUnosKorisnikaVozila.resources
+C:\PI aplikacija i sve uz projekt\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.NoviKorisnik.resources
+C:\PI aplikacija i sve uz projekt\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.NovoVozilo.resources
+C:\PI aplikacija i sve uz projekt\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.Properties.Resources.resources
+C:\PI aplikacija i sve uz projekt\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.RadniNalog.resources
+C:\PI aplikacija i sve uz projekt\Projekt\AplikacijaPI\AplikacijaPI\obj\Debug\AplikacijaPI.csproj.GenerateResource.Cache
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\bin\Debug\AplikacijaPI.exe.config
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.exe
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.pdb
+C:\Users\Racer\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\bin\Debug\AplikacijaPI.exe.config
+C:\Users\Racer\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.exe
+C:\Users\Racer\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.pdb
+C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\bin\Debug\AplikacijaPI.exe.config
+C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.exe
+C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.pdb
+C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\bin\Debug\AplikacijaPI.exe
+C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\bin\Debug\AplikacijaPI.pdb
+C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.csprojResolveAssemblyReference.cache
+C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FormAžuriranjeRadnihNaloga.resources
+C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmGlavniIzbornik.resources
+C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmIzdavanjeKorisnickihPOdataka.resources
+C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmIzradaRacuna.resources
+C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmIzradaRadnogNaloga.resources
+C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmPocetna.resources
+C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmPregledIzvještaja.resources
+C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmPregledPopravaka.resources
+C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmPregledRadnihNaloga.resources
+C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmLogin.resources
+C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmUnosDijelova.resources
+C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmUnosKorisnikaVozila.resources
+C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.NoviKorisnik.resources
+C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.NovoVozilo.resources
+C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.Properties.Resources.resources
+C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.RadniNalog.resources
+C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.csproj.GenerateResource.Cache
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\bin\Debug\AplikacijaPI.exe
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\bin\Debug\AplikacijaPI.pdb
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.csprojResolveAssemblyReference.cache
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FormAžuriranjeRadnihNaloga.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmGlavniIzbornik.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmIzdavanjeKorisnickihPOdataka.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmIzradaRacuna.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmIzradaRadnogNaloga.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmPocetna.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmPregledIzvještaja.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmPregledPopravaka.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmPregledRadnihNaloga.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmLogin.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmUnosDijelova.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmUnosKorisnikaVozila.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.NoviKorisnik.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.NovoVozilo.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.Properties.Resources.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.RadniNalog.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.csproj.GenerateResource.Cache
+C:\Users\Bernarda\Desktop\AplikacijaPI nije dobro\AplikacijaPI\bin\Debug\AplikacijaPI.exe.config
+C:\Users\Bernarda\Desktop\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.exe
+C:\Users\Bernarda\Desktop\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.pdb
+C:\Users\Bernarda\Desktop\AplikacijaPI nije dobro\AplikacijaPI\bin\Debug\AplikacijaPI.exe
+C:\Users\Bernarda\Desktop\AplikacijaPI nije dobro\AplikacijaPI\bin\Debug\AplikacijaPI.pdb
+C:\Users\Bernarda\Desktop\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.csprojResolveAssemblyReference.cache
+C:\Users\Bernarda\Desktop\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FormAžuriranjeRadnihNaloga.resources
+C:\Users\Bernarda\Desktop\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmIzdavanjeKorisnickihPOdataka.resources
+C:\Users\Bernarda\Desktop\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmIzradaRacuna.resources
+C:\Users\Bernarda\Desktop\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmIzradaRadnogNaloga.resources
+C:\Users\Bernarda\Desktop\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmPocetna.resources
+C:\Users\Bernarda\Desktop\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmPregledIzvještaja.resources
+C:\Users\Bernarda\Desktop\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmPregledPopravaka.resources
+C:\Users\Bernarda\Desktop\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmPregledRadnihNaloga.resources
+C:\Users\Bernarda\Desktop\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmLogin.resources
+C:\Users\Bernarda\Desktop\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmUnosDijelova.resources
+C:\Users\Bernarda\Desktop\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmUnosKorisnikaVozila.resources
+C:\Users\Bernarda\Desktop\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.NoviKorisnik.resources
+C:\Users\Bernarda\Desktop\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.NovoVozilo.resources
+C:\Users\Bernarda\Desktop\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.Properties.Resources.resources
+C:\Users\Bernarda\Desktop\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.RadniNalog.resources
+C:\Users\Bernarda\Desktop\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.csproj.GenerateResource.Cache
+C:\Users\Bernarda\Desktop\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmGlavniIzbornikPrijem.resources
+C:\Users\Bernarda\Desktop\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmGlavniIzbornikRadionica.resources
+C:\Users\Bernarda\Desktop\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmGlavniizbornikKlijent.resources
+C:\Users\Bernarda\Desktop\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.Radni.resources
