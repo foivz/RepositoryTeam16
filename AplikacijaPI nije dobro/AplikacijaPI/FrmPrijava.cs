@@ -36,29 +36,13 @@ namespace AplikacijaPI
                 //Your insert code here
                 string KorIme = comboBox1.Text;
                 string lozinka = Convert.ToString(Baza.Instance.DohvatiVrijednost("select lozinka from Korisnik where korisnicko_ime='"+KorIme+"';"));
-                string tip = Convert.ToString(Baza.Instance.DohvatiVrijednost("select tip_korisnika from Korisnik where korisnicko_ime='"+KorIme+"';"));
                 string loz = Convert.ToString(txtLoz.Text);
-            if (loz == lozinka && int.Parse(tip)==1)
+            if (loz == lozinka)
             {
-                FrmGlavniIzbornikPrijem glavniIzbornik = new FrmGlavniIzbornikPrijem();
+                FrmGlavniIzbornik glavniIzbornik = new FrmGlavniIzbornik();
 
                 glavniIzbornik.Show();
             }
-
-            else if (loz == lozinka && int.Parse(tip) == 2)
-            {
-                FrmGlavniIzbornikRadionica izbornik = new FrmGlavniIzbornikRadionica();
-
-                izbornik.Show();
-            }
-
-            else if (loz == lozinka && int.Parse(tip) == 3)
-            {
-                GlavniIzbornikKlijent izb = new GlavniIzbornikKlijent();
-
-                izb.Show();
-            }
-
             else {
                 MessageBox.Show("Pogresna lozinka pokušajte ponovo!");
             }

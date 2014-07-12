@@ -24,7 +24,7 @@ namespace AplikacijaPI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            FrmGlavniIzbornikPrijem glavni = new FrmGlavniIzbornikPrijem();
+            FrmGlavniIzbornik glavni = new FrmGlavniIzbornik();
             glavni.Show();
             this.Close();
         }
@@ -45,11 +45,6 @@ namespace AplikacijaPI
         {
             FrmIzdavanjeKorisnickihPOdataka izdavanje = new FrmIzdavanjeKorisnickihPOdataka();
             izdavanje.Show();
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
 
         }
     }

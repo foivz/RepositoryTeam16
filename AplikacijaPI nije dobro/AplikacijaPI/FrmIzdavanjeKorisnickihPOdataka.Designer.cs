@@ -29,10 +29,11 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.Label imeLabel;
+            this.lbl1 = new System.Windows.Forms.Label();
             this.lbl2 = new System.Windows.Forms.Label();
             this.lbl3 = new System.Windows.Forms.Label();
             this.lbl4 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.korisnikBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.t16_DBDataSet = new AplikacijaPI.T16_DBDataSet();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
@@ -43,39 +44,62 @@
             this.korisnikTableAdapter = new AplikacijaPI.T16_DBDataSetTableAdapters.KorisnikTableAdapter();
             this.tableAdapterManager = new AplikacijaPI.T16_DBDataSetTableAdapters.TableAdapterManager();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.imeComboBox = new System.Windows.Forms.ComboBox();
-            imeLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.korisnikBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.t16_DBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
+            // lbl1
+            // 
+            this.lbl1.AutoSize = true;
+            this.lbl1.Location = new System.Drawing.Point(30, 37);
+            this.lbl1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl1.Name = "lbl1";
+            this.lbl1.Size = new System.Drawing.Size(61, 17);
+            this.lbl1.TabIndex = 0;
+            this.lbl1.Text = "RadnikP";
+            // 
             // lbl2
             // 
             this.lbl2.AutoSize = true;
-            this.lbl2.Location = new System.Drawing.Point(22, 87);
+            this.lbl2.Location = new System.Drawing.Point(30, 87);
+            this.lbl2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl2.Name = "lbl2";
-            this.lbl2.Size = new System.Drawing.Size(44, 13);
+            this.lbl2.Size = new System.Drawing.Size(46, 17);
             this.lbl2.TabIndex = 1;
-            this.lbl2.Text = "Prezime";
+            this.lbl2.Text = "Klijent";
             // 
             // lbl3
             // 
             this.lbl3.AutoSize = true;
-            this.lbl3.Location = new System.Drawing.Point(22, 148);
+            this.lbl3.Location = new System.Drawing.Point(30, 149);
+            this.lbl3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl3.Name = "lbl3";
-            this.lbl3.Size = new System.Drawing.Size(75, 13);
+            this.lbl3.Size = new System.Drawing.Size(99, 17);
             this.lbl3.TabIndex = 2;
             this.lbl3.Text = "Korisničko ime";
             // 
             // lbl4
             // 
             this.lbl4.AutoSize = true;
-            this.lbl4.Location = new System.Drawing.Point(22, 208);
+            this.lbl4.Location = new System.Drawing.Point(30, 204);
+            this.lbl4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl4.Name = "lbl4";
-            this.lbl4.Size = new System.Drawing.Size(44, 13);
+            this.lbl4.Size = new System.Drawing.Size(57, 17);
             this.lbl4.TabIndex = 3;
             this.lbl4.Text = "Lozinka";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.korisnikBindingSource, "sifra_zaposlenika", true));
+            this.comboBox1.DataSource = this.korisnikBindingSource;
+            this.comboBox1.DisplayMember = "sifra_zaposlenika";
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(159, 37);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(143, 24);
+            this.comboBox1.TabIndex = 4;
             // 
             // korisnikBindingSource
             // 
@@ -90,37 +114,39 @@
             // comboBox2
             // 
             this.comboBox2.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.korisnikBindingSource, "ime", true));
-            this.comboBox2.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.korisnikBindingSource, "ID_korisnik", true));
             this.comboBox2.DataSource = this.korisnikBindingSource;
             this.comboBox2.DisplayMember = "prezime";
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(119, 84);
+            this.comboBox2.Location = new System.Drawing.Point(159, 84);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(108, 21);
+            this.comboBox2.Size = new System.Drawing.Size(143, 24);
             this.comboBox2.TabIndex = 5;
-            this.comboBox2.ValueMember = "ID_korisnik";
             // 
             // textBox1
             // 
             this.textBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.korisnikBindingSource, "korisnicko_ime", true));
-            this.textBox1.Location = new System.Drawing.Point(119, 142);
+            this.textBox1.Location = new System.Drawing.Point(159, 142);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(109, 20);
+            this.textBox1.Size = new System.Drawing.Size(144, 22);
             this.textBox1.TabIndex = 6;
             // 
             // textBox2
             // 
             this.textBox2.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.korisnikBindingSource, "lozinka", true));
-            this.textBox2.Location = new System.Drawing.Point(119, 205);
+            this.textBox2.Location = new System.Drawing.Point(159, 201);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(108, 20);
+            this.textBox2.Size = new System.Drawing.Size(143, 22);
             this.textBox2.TabIndex = 7;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(153, 275);
+            this.button1.Location = new System.Drawing.Point(359, 115);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(86, 36);
+            this.button1.Size = new System.Drawing.Size(115, 28);
             this.button1.TabIndex = 10;
             this.button1.Text = "Glavni izbornik";
             this.button1.UseVisualStyleBackColor = true;
@@ -128,9 +154,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(25, 275);
+            this.button2.Location = new System.Drawing.Point(33, 256);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(84, 36);
+            this.button2.Size = new System.Drawing.Size(112, 28);
             this.button2.TabIndex = 11;
             this.button2.Text = "Print";
             this.button2.UseVisualStyleBackColor = true;
@@ -153,53 +180,30 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.DataBindings.Add(new System.Windows.Forms.Binding("Image", this.korisnikBindingSource, "ime", true));
             this.pictureBox1.Image = global::AplikacijaPI.Properties.Resources.pozadinaIzradaKorPod;
-            this.pictureBox1.Location = new System.Drawing.Point(-4, 1);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(1, -12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(376, 403);
+            this.pictureBox1.Size = new System.Drawing.Size(501, 405);
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
             // 
-            // imeLabel
-            // 
-            imeLabel.AutoSize = true;
-            imeLabel.Location = new System.Drawing.Point(22, 32);
-            imeLabel.Name = "imeLabel";
-            imeLabel.Size = new System.Drawing.Size(24, 13);
-            imeLabel.TabIndex = 12;
-            imeLabel.Text = "Ime";
-            // 
-            // imeComboBox
-            // 
-            this.imeComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.korisnikBindingSource, "ime", true));
-            this.imeComboBox.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.korisnikBindingSource, "ID_korisnik", true));
-            this.imeComboBox.DataSource = this.korisnikBindingSource;
-            this.imeComboBox.DisplayMember = "ime";
-            this.imeComboBox.FormattingEnabled = true;
-            this.imeComboBox.Location = new System.Drawing.Point(118, 32);
-            this.imeComboBox.Name = "imeComboBox";
-            this.imeComboBox.Size = new System.Drawing.Size(110, 21);
-            this.imeComboBox.TabIndex = 13;
-            this.imeComboBox.ValueMember = "ID_korisnik";
-            // 
             // FrmIzdavanjeKorisnickihPOdataka
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(376, 379);
-            this.Controls.Add(this.imeComboBox);
-            this.Controls.Add(imeLabel);
+            this.ClientSize = new System.Drawing.Size(499, 383);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.lbl4);
             this.Controls.Add(this.lbl3);
             this.Controls.Add(this.lbl2);
+            this.Controls.Add(this.lbl1);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmIzdavanjeKorisnickihPOdataka";
             this.Text = "FrmIzdavanjeKorisnickihPOdataka";
             this.Load += new System.EventHandler(this.FrmIzdavanjeKorisnickihPOdataka_Load);
@@ -213,9 +217,11 @@
 
         #endregion
 
+        private System.Windows.Forms.Label lbl1;
         private System.Windows.Forms.Label lbl2;
         private System.Windows.Forms.Label lbl3;
         private System.Windows.Forms.Label lbl4;
+        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
@@ -226,6 +232,5 @@
         private T16_DBDataSetTableAdapters.KorisnikTableAdapter korisnikTableAdapter;
         private T16_DBDataSetTableAdapters.TableAdapterManager tableAdapterManager;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.ComboBox imeComboBox;
     }
 }

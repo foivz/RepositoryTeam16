@@ -67,9 +67,10 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.voziloBindingSource, "registracijska_oznaka", true));
-            this.dateTimePicker1.Location = new System.Drawing.Point(112, 160);
+            this.dateTimePicker1.Location = new System.Drawing.Point(149, 197);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(115, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(152, 22);
             this.dateTimePicker1.TabIndex = 23;
             // 
             // voziloBindingSource
@@ -87,9 +88,10 @@
             this.comboBox3.DataSource = this.voziloBindingSource;
             this.comboBox3.DisplayMember = "registracijska_oznaka";
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(113, 115);
+            this.comboBox3.Location = new System.Drawing.Point(151, 141);
+            this.comboBox3.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(115, 21);
+            this.comboBox3.Size = new System.Drawing.Size(152, 24);
             this.comboBox3.TabIndex = 22;
             this.comboBox3.ValueMember = "registracijska_oznaka";
             // 
@@ -98,9 +100,10 @@
             this.comboBox2.DataSource = this.korisnikBindingSource;
             this.comboBox2.DisplayMember = "ime";
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(113, 67);
+            this.comboBox2.Location = new System.Drawing.Point(151, 82);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(115, 21);
+            this.comboBox2.Size = new System.Drawing.Size(152, 24);
             this.comboBox2.TabIndex = 21;
             // 
             // korisnikBindingSource
@@ -114,53 +117,59 @@
             this.comboBox1.DataSource = this.korisnikBindingSource;
             this.comboBox1.DisplayMember = "sifra_zaposlenika";
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(113, 12);
+            this.comboBox1.Location = new System.Drawing.Point(151, 15);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(115, 21);
+            this.comboBox1.Size = new System.Drawing.Size(152, 24);
             this.comboBox1.TabIndex = 20;
             this.comboBox1.ValueMember = "sifra_zaposlenika";
             // 
             // lbl4
             // 
             this.lbl4.AutoSize = true;
-            this.lbl4.Location = new System.Drawing.Point(26, 160);
+            this.lbl4.Location = new System.Drawing.Point(34, 197);
+            this.lbl4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl4.Name = "lbl4";
-            this.lbl4.Size = new System.Drawing.Size(38, 13);
+            this.lbl4.Size = new System.Drawing.Size(49, 17);
             this.lbl4.TabIndex = 19;
             this.lbl4.Text = "Datum";
             // 
             // lbl3
             // 
             this.lbl3.AutoSize = true;
-            this.lbl3.Location = new System.Drawing.Point(27, 118);
+            this.lbl3.Location = new System.Drawing.Point(36, 145);
+            this.lbl3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl3.Name = "lbl3";
-            this.lbl3.Size = new System.Drawing.Size(35, 13);
+            this.lbl3.Size = new System.Drawing.Size(46, 17);
             this.lbl3.TabIndex = 18;
             this.lbl3.Text = "Vozilo";
             // 
             // lbl2
             // 
             this.lbl2.AutoSize = true;
-            this.lbl2.Location = new System.Drawing.Point(27, 67);
+            this.lbl2.Location = new System.Drawing.Point(36, 82);
+            this.lbl2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl2.Name = "lbl2";
-            this.lbl2.Size = new System.Drawing.Size(35, 13);
+            this.lbl2.Size = new System.Drawing.Size(46, 17);
             this.lbl2.TabIndex = 17;
             this.lbl2.Text = "Klijent";
             // 
             // lbl
             // 
             this.lbl.AutoSize = true;
-            this.lbl.Location = new System.Drawing.Point(27, 16);
+            this.lbl.Location = new System.Drawing.Point(36, 20);
+            this.lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl.Name = "lbl";
-            this.lbl.Size = new System.Drawing.Size(48, 13);
+            this.lbl.Size = new System.Drawing.Size(61, 17);
             this.lbl.TabIndex = 16;
             this.lbl.Text = "RadnikS";
             // 
             // btn1
             // 
-            this.btn1.Location = new System.Drawing.Point(596, 379);
+            this.btn1.Location = new System.Drawing.Point(794, 467);
+            this.btn1.Margin = new System.Windows.Forms.Padding(4);
             this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(86, 23);
+            this.btn1.Size = new System.Drawing.Size(115, 28);
             this.btn1.TabIndex = 24;
             this.btn1.Text = "Glavni izbornik";
             this.btn1.UseVisualStyleBackColor = true;
@@ -168,9 +177,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(16, 379);
+            this.button1.Location = new System.Drawing.Point(22, 467);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(69, 22);
+            this.button1.Size = new System.Drawing.Size(92, 27);
             this.button1.TabIndex = 25;
             this.button1.Text = "Pregled";
             this.button1.UseVisualStyleBackColor = true;
@@ -188,9 +198,10 @@
             this.statusDataGridViewTextBoxColumn,
             this.popravakDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.radni_nalogBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(16, 199);
+            this.dataGridView1.Location = new System.Drawing.Point(22, 245);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(587, 156);
+            this.dataGridView1.Size = new System.Drawing.Size(783, 192);
             this.dataGridView1.TabIndex = 26;
             // 
             // iDradninalogDataGridViewTextBoxColumn
@@ -269,19 +280,17 @@
             // 
             this.pictureBox1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.pictureBox1.Image = global::AplikacijaPI.Properties.Resources.poz33;
-            this.pictureBox1.Location = new System.Drawing.Point(-2, -2);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(-3, -3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(742, 413);
+            this.pictureBox1.Size = new System.Drawing.Size(990, 508);
             this.pictureBox1.TabIndex = 27;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // FrmPregledIzvještaja
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(737, 409);
+            this.ClientSize = new System.Drawing.Size(983, 503);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btn1);
@@ -294,6 +303,7 @@
             this.Controls.Add(this.lbl2);
             this.Controls.Add(this.lbl);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmPregledIzvještaja";
             this.Text = "FrmPregledIzvještaja";
             this.Load += new System.EventHandler(this.FrmPregledIzvještaja_Load);

@@ -24,7 +24,7 @@ namespace AplikacijaPI
 
         private void btn1_Click(object sender, EventArgs e)
         {
-            FrmGlavniIzbornikPrijem glavni = new FrmGlavniIzbornikPrijem();
+            FrmGlavniIzbornik glavni = new FrmGlavniIzbornik();
             glavni.Show();
             this.Close();
         }
@@ -37,11 +37,6 @@ namespace AplikacijaPI
             this.korisnikTableAdapter.Fill(this.t16_DBDataSet.Korisnik);
             // TODO: This line of code loads data into the 't16_DBDataSet.Radni_nalog' table. You can move, or remove it, as needed.
             this.radni_nalogTableAdapter.Fill(this.t16_DBDataSet.Radni_nalog);
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
 
         }
     }

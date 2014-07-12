@@ -51,17 +51,11 @@
     <Compile Include="FormAžuriranjeRadnihNaloga.Designer.cs">
       <DependentUpon>FormAžuriranjeRadnihNaloga.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmGlavniIzbornikPrijem.cs">
+    <Compile Include="FrmGlavniIzbornik.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmGlavniIzbornikPrijem.Designer.cs">
-      <DependentUpon>FrmGlavniIzbornikPrijem.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmGlavniIzbornikRadionica.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmGlavniIzbornikRadionica.Designer.cs">
-      <DependentUpon>FrmGlavniIzbornikRadionica.cs</DependentUpon>
+    <Compile Include="FrmGlavniIzbornik.Designer.cs">
+      <DependentUpon>FrmGlavniIzbornik.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmIzdavanjeKorisnickihPOdataka.cs">
       <SubType>Form</SubType>
@@ -123,12 +117,6 @@
     <Compile Include="FrmUnosKorisnikaVozila.Designer.cs">
       <DependentUpon>FrmUnosKorisnikaVozila.cs</DependentUpon>
     </Compile>
-    <Compile Include="GlavniIzbornikKlijent.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GlavniIzbornikKlijent.Designer.cs">
-      <DependentUpon>GlavniIzbornikKlijent.cs</DependentUpon>
-    </Compile>
     <Compile Include="NoviKorisnik.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -157,11 +145,8 @@
     <EmbeddedResource Include="FormAžuriranjeRadnihNaloga.resx">
       <DependentUpon>FormAžuriranjeRadnihNaloga.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmGlavniIzbornikPrijem.resx">
-      <DependentUpon>FrmGlavniIzbornikPrijem.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmGlavniIzbornikRadionica.resx">
-      <DependentUpon>FrmGlavniIzbornikRadionica.cs</DependentUpon>
+    <EmbeddedResource Include="FrmGlavniIzbornik.resx">
+      <DependentUpon>FrmGlavniIzbornik.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmIzdavanjeKorisnickihPOdataka.resx">
       <DependentUpon>FrmIzdavanjeKorisnickihPOdataka.cs</DependentUpon>
@@ -192,9 +177,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmUnosKorisnikaVozila.resx">
       <DependentUpon>FrmUnosKorisnikaVozila.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GlavniIzbornikKlijent.resx">
-      <DependentUpon>GlavniIzbornikKlijent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NoviKorisnik.resx">
       <DependentUpon>NoviKorisnik.cs</DependentUpon>
