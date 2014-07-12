@@ -17,11 +17,12 @@ namespace AplikacijaPI
             InitializeComponent();
         }
 
-        private void btn1_Click(object sender, EventArgs e)
+        private void korisnikBindingNavigatorSaveItem_Click(object sender, EventArgs e)
         {
-            FrmUnosKorisnikaVozila unos = new FrmUnosKorisnikaVozila();
-            unos.Show();
-            this.Close();
+            this.Validate();
+            this.korisnikBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.t16_DBDataSet);
+
         }
 
         private void NoviKorisnik_Load(object sender, EventArgs e)
@@ -31,7 +32,6 @@ namespace AplikacijaPI
             korisnikBindingSource.AddNew();
         }
 
-       
 
         private void spremi()
         {
@@ -52,13 +52,11 @@ namespace AplikacijaPI
             this.korisnikBindingSource.RemoveCurrent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-
+            FrmUnosKorisnikaVozila unos = new FrmUnosKorisnikaVozila();
+            unos.Show();
+            this.Close();
         }
-
-
-
-
     }
 }

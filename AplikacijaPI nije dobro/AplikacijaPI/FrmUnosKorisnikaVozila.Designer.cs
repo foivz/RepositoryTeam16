@@ -38,10 +38,9 @@
             // 
             // btn1
             // 
-            this.btn1.Location = new System.Drawing.Point(76, 44);
-            this.btn1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn1.Location = new System.Drawing.Point(57, 36);
             this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(159, 52);
+            this.btn1.Size = new System.Drawing.Size(119, 42);
             this.btn1.TabIndex = 0;
             this.btn1.Text = "Novi korisnik";
             this.btn1.UseVisualStyleBackColor = true;
@@ -49,10 +48,9 @@
             // 
             // btn2
             // 
-            this.btn2.Location = new System.Drawing.Point(73, 139);
-            this.btn2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn2.Location = new System.Drawing.Point(55, 113);
             this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(159, 49);
+            this.btn2.Size = new System.Drawing.Size(119, 40);
             this.btn2.TabIndex = 1;
             this.btn2.Text = "Novo vozilo";
             this.btn2.UseVisualStyleBackColor = true;
@@ -60,10 +58,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(251, 320);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Location = new System.Drawing.Point(188, 260);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(115, 28);
+            this.button1.Size = new System.Drawing.Size(86, 23);
             this.button1.TabIndex = 9;
             this.button1.Text = "Glavni izbornik";
             this.button1.UseVisualStyleBackColor = true;
@@ -71,10 +68,9 @@
             // 
             // btn3
             // 
-            this.btn3.Location = new System.Drawing.Point(76, 231);
-            this.btn3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn3.Location = new System.Drawing.Point(57, 188);
             this.btn3.Name = "btn3";
-            this.btn3.Size = new System.Drawing.Size(153, 49);
+            this.btn3.Size = new System.Drawing.Size(115, 40);
             this.btn3.TabIndex = 10;
             this.btn3.Text = "Izdavanje korisnićkih podataka";
             this.btn3.UseVisualStyleBackColor = true;
@@ -83,23 +79,24 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::AplikacijaPI.Properties.Resources._13515003;
-            this.pictureBox1.Location = new System.Drawing.Point(-2, -4);
+            this.pictureBox1.Location = new System.Drawing.Point(-2, -3);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(387, 386);
+            this.pictureBox1.Size = new System.Drawing.Size(290, 314);
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // FrmUnosKorisnikaVozila
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(383, 380);
+            this.ClientSize = new System.Drawing.Size(287, 309);
             this.Controls.Add(this.btn3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn1);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmUnosKorisnikaVozila";
             this.Text = "FrmUnosKorisnikaVozila";
             this.Load += new System.EventHandler(this.FrmUnosKorisnikaVozila_Load);

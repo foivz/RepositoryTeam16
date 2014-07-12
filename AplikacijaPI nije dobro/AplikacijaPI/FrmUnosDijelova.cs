@@ -37,7 +37,7 @@ namespace AplikacijaPI
 
         private void btn1_Click(object sender, EventArgs e)
         {
-            FrmGlavniIzbornik glavni = new FrmGlavniIzbornik();
+            FrmGlavniIzbornikPrijem glavni = new FrmGlavniIzbornikPrijem();
             glavni.Show();
             this.Close();
         }

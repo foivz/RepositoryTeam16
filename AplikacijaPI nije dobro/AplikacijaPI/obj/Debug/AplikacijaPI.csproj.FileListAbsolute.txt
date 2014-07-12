@@ -86,7 +86,6 @@ C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\Apli
 C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\bin\Debug\AplikacijaPI.pdb
 C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.csprojResolveAssemblyReference.cache
 C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FormAžuriranjeRadnihNaloga.resources
-C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmGlavniIzbornik.resources
 C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmIzdavanjeKorisnickihPOdataka.resources
 C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmIzradaRacuna.resources
 C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmIzradaRadnogNaloga.resources
@@ -102,3 +101,6 @@ C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\Apli
 C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.Properties.Resources.resources
 C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.RadniNalog.resources
 C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.csproj.GenerateResource.Cache
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmGlavniIzbornikPrijem.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.FrmGlavniIzbornikRadionica.resources
+C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\AplikacijaPI nije dobro\AplikacijaPI\obj\Debug\AplikacijaPI.GlavniIzbornikKlijent.resources
