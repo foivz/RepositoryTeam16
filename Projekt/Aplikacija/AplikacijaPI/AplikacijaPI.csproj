@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{02D9030F-B58A-435A-8086-2D7590E9A8BD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AplikacijaPI</RootNamespace>
+    <AssemblyName>AplikacijaPI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Baza.cs" />
+    <Compile Include="FrmGlavniizbornikKlijent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGlavniizbornikKlijent.Designer.cs">
+      <DependentUpon>FrmGlavniizbornikKlijent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGlavniIzbornikPrijem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGlavniIzbornikPrijem.Designer.cs">
+      <DependentUpon>FrmGlavniIzbornikPrijem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGlavniIzbornikRadionica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGlavniIzbornikRadionica.Designer.cs">
+      <DependentUpon>FrmGlavniIzbornikRadionica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmIzdavanjeKorisnickihPodataka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmIzdavanjeKorisnickihPodataka.Designer.cs">
+      <DependentUpon>FrmIzdavanjeKorisnickihPodataka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPocetna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPocetna.Designer.cs">
+      <DependentUpon>FrmPocetna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPregledPopravaka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPregledPopravaka.Designer.cs">
+      <DependentUpon>FrmPregledPopravaka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPregledRadnihNaloga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPregledRadnihNaloga.Designer.cs">
+      <DependentUpon>FrmPregledRadnihNaloga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrijava.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrijava.Designer.cs">
+      <DependentUpon>FrmPrijava.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUnosDijelova.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUnosDijelova.Designer.cs">
+      <DependentUpon>FrmUnosDijelova.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUnosKorisnikaVozila.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUnosKorisnikaVozila.Designer.cs">
+      <DependentUpon>FrmUnosKorisnikaVozila.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NoviKorisnik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NoviKorisnik.Designer.cs">
+      <DependentUpon>NoviKorisnik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NovoVozilo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NovoVozilo.Designer.cs">
+      <DependentUpon>NovoVozilo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rad.Designer.cs">
+      <DependentUpon>Rad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="T16_DBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>T16_DBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="T16_DBDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>T16_DBDataSet1.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmGlavniizbornikKlijent.resx">
+      <DependentUpon>FrmGlavniizbornikKlijent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGlavniIzbornikPrijem.resx">
+      <DependentUpon>FrmGlavniIzbornikPrijem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGlavniIzbornikRadionica.resx">
+      <DependentUpon>FrmGlavniIzbornikRadionica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmIzdavanjeKorisnickihPodataka.resx">
+      <DependentUpon>FrmIzdavanjeKorisnickihPodataka.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPocetna.resx">
+      <DependentUpon>FrmPocetna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPregledPopravaka.resx">
+      <DependentUpon>FrmPregledPopravaka.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPregledRadnihNaloga.resx">
+      <DependentUpon>FrmPregledRadnihNaloga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrijava.resx">
+      <DependentUpon>FrmPrijava.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUnosDijelova.resx">
+      <DependentUpon>FrmUnosDijelova.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUnosKorisnikaVozila.resx">
+      <DependentUpon>FrmUnosKorisnikaVozila.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NoviKorisnik.resx">
+      <DependentUpon>NoviKorisnik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovoVozilo.resx">
+      <DependentUpon>NovoVozilo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Rad.resx">
+      <DependentUpon>Rad.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="T16_DBDataSet.xsc">
+      <DependentUpon>T16_DBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="T16_DBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>T16_DBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="T16_DBDataSet.xss">
+      <DependentUpon>T16_DBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="T16_DBDataSet1.xsc">
+      <DependentUpon>T16_DBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="T16_DBDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>T16_DBDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="T16_DBDataSet1.xss">
+      <DependentUpon>T16_DBDataSet1.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bez naslova.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pozadinaPrijava.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pozadinaAzuriranjeNaloga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pozadinaIzradaKorPod.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8225224692_4dc7f3c824_z.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pozadinaa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Audi-Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poz2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poz21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poz22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poz33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laguna.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock-photo--d-car-model-on-a-black-background-render-image-with-shine-and-reflection-isolated-parts-of-the-136965911.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1351500.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13515001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13515002.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13515003.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red-cars-image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shadowcatcher_skoda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shadowcatcher_skoda1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shadowcatcher_skoda2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shadowcatcher_skoda3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red-Alfa-Romeo-4C-2014-with-Mountain-Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red-Alfa-Romeo-4C-2014-with-Mountain-Background1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red-Alfa-Romeo-4C-2014-with-Mountain-Background2.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
