@@ -40,13 +40,13 @@ namespace AplikacijaPI
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+       /* private void button3_Click(object sender, EventArgs e)
         {
             FrmUnosKorisnikaVozila glavni = new FrmUnosKorisnikaVozila();
             glavni.Show();
             this.Close();
-        }
-
+        }*/
+        
         private void button1_Click(object sender, EventArgs e)
         {
             spremi();
@@ -58,6 +58,13 @@ namespace AplikacijaPI
             this.Validate();
             this.korisnikBindingSource.EndEdit();
             this.tableAdapterManager.UpdateAll(this.t16_DBDataSet);
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            FrmUnosKorisnikaVozila unos = new FrmUnosKorisnikaVozila();
+            unos.Show();
+            this.Close();
         }
 
         
