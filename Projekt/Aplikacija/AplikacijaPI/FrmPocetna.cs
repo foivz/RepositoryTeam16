@@ -22,6 +22,8 @@ namespace AplikacijaPI
             FrmLogin login = new FrmLogin();
             
             login.Show();
+            //novo
+            
             
         }
 
