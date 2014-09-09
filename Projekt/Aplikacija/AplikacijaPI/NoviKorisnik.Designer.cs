@@ -69,6 +69,7 @@
             this.sifra_zaposlenikaTextBox = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             oIBLabel = new System.Windows.Forms.Label();
             tip_korisnikaLabel = new System.Windows.Forms.Label();
             imeLabel = new System.Windows.Forms.Label();
@@ -83,12 +84,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.korisnikBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.korisnikBindingNavigator)).BeginInit();
             this.korisnikBindingNavigator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // oIBLabel
             // 
             oIBLabel.AutoSize = true;
-            oIBLabel.Location = new System.Drawing.Point(36, 68);
+            oIBLabel.Location = new System.Drawing.Point(36, 54);
             oIBLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             oIBLabel.Name = "oIBLabel";
             oIBLabel.Size = new System.Drawing.Size(35, 17);
@@ -98,7 +100,7 @@
             // tip_korisnikaLabel
             // 
             tip_korisnikaLabel.AutoSize = true;
-            tip_korisnikaLabel.Location = new System.Drawing.Point(36, 124);
+            tip_korisnikaLabel.Location = new System.Drawing.Point(36, 87);
             tip_korisnikaLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             tip_korisnikaLabel.Name = "tip_korisnikaLabel";
             tip_korisnikaLabel.Size = new System.Drawing.Size(87, 17);
@@ -108,7 +110,7 @@
             // imeLabel
             // 
             imeLabel.AutoSize = true;
-            imeLabel.Location = new System.Drawing.Point(36, 167);
+            imeLabel.Location = new System.Drawing.Point(37, 123);
             imeLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             imeLabel.Name = "imeLabel";
             imeLabel.Size = new System.Drawing.Size(34, 17);
@@ -118,7 +120,7 @@
             // prezimeLabel
             // 
             prezimeLabel.AutoSize = true;
-            prezimeLabel.Location = new System.Drawing.Point(36, 222);
+            prezimeLabel.Location = new System.Drawing.Point(37, 166);
             prezimeLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             prezimeLabel.Name = "prezimeLabel";
             prezimeLabel.Size = new System.Drawing.Size(62, 17);
@@ -128,7 +130,7 @@
             // adresaLabel
             // 
             adresaLabel.AutoSize = true;
-            adresaLabel.Location = new System.Drawing.Point(41, 268);
+            adresaLabel.Location = new System.Drawing.Point(37, 204);
             adresaLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             adresaLabel.Name = "adresaLabel";
             adresaLabel.Size = new System.Drawing.Size(56, 17);
@@ -138,7 +140,7 @@
             // broj_telefonaLabel
             // 
             broj_telefonaLabel.AutoSize = true;
-            broj_telefonaLabel.Location = new System.Drawing.Point(41, 311);
+            broj_telefonaLabel.Location = new System.Drawing.Point(36, 247);
             broj_telefonaLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             broj_telefonaLabel.Name = "broj_telefonaLabel";
             broj_telefonaLabel.Size = new System.Drawing.Size(91, 17);
@@ -148,7 +150,7 @@
             // lozinkaLabel
             // 
             lozinkaLabel.AutoSize = true;
-            lozinkaLabel.Location = new System.Drawing.Point(36, 351);
+            lozinkaLabel.Location = new System.Drawing.Point(36, 278);
             lozinkaLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             lozinkaLabel.Name = "lozinkaLabel";
             lozinkaLabel.Size = new System.Drawing.Size(56, 17);
@@ -158,7 +160,7 @@
             // korisnicko_imeLabel
             // 
             korisnicko_imeLabel.AutoSize = true;
-            korisnicko_imeLabel.Location = new System.Drawing.Point(36, 406);
+            korisnicko_imeLabel.Location = new System.Drawing.Point(37, 318);
             korisnicko_imeLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             korisnicko_imeLabel.Name = "korisnicko_imeLabel";
             korisnicko_imeLabel.Size = new System.Drawing.Size(101, 17);
@@ -168,7 +170,7 @@
             // radno_mjestoLabel
             // 
             radno_mjestoLabel.AutoSize = true;
-            radno_mjestoLabel.Location = new System.Drawing.Point(31, 453);
+            radno_mjestoLabel.Location = new System.Drawing.Point(35, 361);
             radno_mjestoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             radno_mjestoLabel.Name = "radno_mjestoLabel";
             radno_mjestoLabel.Size = new System.Drawing.Size(94, 17);
@@ -178,7 +180,7 @@
             // sifra_zaposlenikaLabel
             // 
             sifra_zaposlenikaLabel.AutoSize = true;
-            sifra_zaposlenikaLabel.Location = new System.Drawing.Point(31, 500);
+            sifra_zaposlenikaLabel.Location = new System.Drawing.Point(31, 399);
             sifra_zaposlenikaLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             sifra_zaposlenikaLabel.Name = "sifra_zaposlenikaLabel";
             sifra_zaposlenikaLabel.Size = new System.Drawing.Size(118, 17);
@@ -237,7 +239,7 @@
             this.korisnikBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.korisnikBindingNavigator.Name = "korisnikBindingNavigator";
             this.korisnikBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.korisnikBindingNavigator.Size = new System.Drawing.Size(604, 27);
+            this.korisnikBindingNavigator.Size = new System.Drawing.Size(594, 27);
             this.korisnikBindingNavigator.TabIndex = 0;
             this.korisnikBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -338,8 +340,8 @@
             // oIBTextBox
             // 
             this.oIBTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.korisnikBindingSource, "OIB", true));
-            this.oIBTextBox.Location = new System.Drawing.Point(149, 64);
-            this.oIBTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.oIBTextBox.Location = new System.Drawing.Point(149, 50);
+            this.oIBTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.oIBTextBox.Name = "oIBTextBox";
             this.oIBTextBox.Size = new System.Drawing.Size(132, 22);
             this.oIBTextBox.TabIndex = 2;
@@ -347,8 +349,8 @@
             // tip_korisnikaTextBox
             // 
             this.tip_korisnikaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.korisnikBindingSource, "tip_korisnika", true));
-            this.tip_korisnikaTextBox.Location = new System.Drawing.Point(149, 121);
-            this.tip_korisnikaTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tip_korisnikaTextBox.Location = new System.Drawing.Point(149, 84);
+            this.tip_korisnikaTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.tip_korisnikaTextBox.Name = "tip_korisnikaTextBox";
             this.tip_korisnikaTextBox.Size = new System.Drawing.Size(132, 22);
             this.tip_korisnikaTextBox.TabIndex = 4;
@@ -357,8 +359,8 @@
             // 
             this.imeComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.korisnikBindingSource, "ime", true));
             this.imeComboBox.FormattingEnabled = true;
-            this.imeComboBox.Location = new System.Drawing.Point(149, 164);
-            this.imeComboBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.imeComboBox.Location = new System.Drawing.Point(150, 120);
+            this.imeComboBox.Margin = new System.Windows.Forms.Padding(4);
             this.imeComboBox.Name = "imeComboBox";
             this.imeComboBox.Size = new System.Drawing.Size(160, 24);
             this.imeComboBox.TabIndex = 6;
@@ -367,8 +369,8 @@
             // 
             this.prezimeComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.korisnikBindingSource, "prezime", true));
             this.prezimeComboBox.FormattingEnabled = true;
-            this.prezimeComboBox.Location = new System.Drawing.Point(149, 218);
-            this.prezimeComboBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.prezimeComboBox.Location = new System.Drawing.Point(150, 162);
+            this.prezimeComboBox.Margin = new System.Windows.Forms.Padding(4);
             this.prezimeComboBox.Name = "prezimeComboBox";
             this.prezimeComboBox.Size = new System.Drawing.Size(160, 24);
             this.prezimeComboBox.TabIndex = 8;
@@ -376,8 +378,8 @@
             // adresaTextBox
             // 
             this.adresaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.korisnikBindingSource, "adresa", true));
-            this.adresaTextBox.Location = new System.Drawing.Point(149, 265);
-            this.adresaTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.adresaTextBox.Location = new System.Drawing.Point(152, 201);
+            this.adresaTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.adresaTextBox.Name = "adresaTextBox";
             this.adresaTextBox.Size = new System.Drawing.Size(132, 22);
             this.adresaTextBox.TabIndex = 10;
@@ -385,8 +387,8 @@
             // broj_telefonaTextBox
             // 
             this.broj_telefonaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.korisnikBindingSource, "broj_telefona", true));
-            this.broj_telefonaTextBox.Location = new System.Drawing.Point(149, 308);
-            this.broj_telefonaTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.broj_telefonaTextBox.Location = new System.Drawing.Point(152, 244);
+            this.broj_telefonaTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.broj_telefonaTextBox.Name = "broj_telefonaTextBox";
             this.broj_telefonaTextBox.Size = new System.Drawing.Size(132, 22);
             this.broj_telefonaTextBox.TabIndex = 12;
@@ -394,8 +396,8 @@
             // lozinkaTextBox
             // 
             this.lozinkaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.korisnikBindingSource, "lozinka", true));
-            this.lozinkaTextBox.Location = new System.Drawing.Point(149, 342);
-            this.lozinkaTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lozinkaTextBox.Location = new System.Drawing.Point(152, 278);
+            this.lozinkaTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.lozinkaTextBox.Name = "lozinkaTextBox";
             this.lozinkaTextBox.Size = new System.Drawing.Size(132, 22);
             this.lozinkaTextBox.TabIndex = 14;
@@ -403,8 +405,8 @@
             // korisnicko_imeTextBox
             // 
             this.korisnicko_imeTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.korisnikBindingSource, "korisnicko_ime", true));
-            this.korisnicko_imeTextBox.Location = new System.Drawing.Point(153, 402);
-            this.korisnicko_imeTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.korisnicko_imeTextBox.Location = new System.Drawing.Point(153, 315);
+            this.korisnicko_imeTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.korisnicko_imeTextBox.Name = "korisnicko_imeTextBox";
             this.korisnicko_imeTextBox.Size = new System.Drawing.Size(132, 22);
             this.korisnicko_imeTextBox.TabIndex = 16;
@@ -412,8 +414,8 @@
             // radno_mjestoTextBox
             // 
             this.radno_mjestoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.korisnikBindingSource, "radno_mjesto", true));
-            this.radno_mjestoTextBox.Location = new System.Drawing.Point(149, 449);
-            this.radno_mjestoTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radno_mjestoTextBox.Location = new System.Drawing.Point(153, 357);
+            this.radno_mjestoTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.radno_mjestoTextBox.Name = "radno_mjestoTextBox";
             this.radno_mjestoTextBox.Size = new System.Drawing.Size(132, 22);
             this.radno_mjestoTextBox.TabIndex = 18;
@@ -421,16 +423,16 @@
             // sifra_zaposlenikaTextBox
             // 
             this.sifra_zaposlenikaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.korisnikBindingSource, "sifra_zaposlenika", true));
-            this.sifra_zaposlenikaTextBox.Location = new System.Drawing.Point(153, 500);
-            this.sifra_zaposlenikaTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.sifra_zaposlenikaTextBox.Location = new System.Drawing.Point(153, 399);
+            this.sifra_zaposlenikaTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.sifra_zaposlenikaTextBox.Name = "sifra_zaposlenikaTextBox";
             this.sifra_zaposlenikaTextBox.Size = new System.Drawing.Size(132, 22);
             this.sifra_zaposlenikaTextBox.TabIndex = 20;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(47, 559);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Location = new System.Drawing.Point(27, 444);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(107, 30);
             this.button1.TabIndex = 21;
@@ -440,8 +442,8 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(407, 556);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Location = new System.Drawing.Point(387, 441);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(127, 31);
             this.button3.TabIndex = 23;
@@ -449,11 +451,21 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(-2, 30);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(606, 610);
+            this.pictureBox1.TabIndex = 24;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // NoviKorisnik
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(604, 607);
+            this.ClientSize = new System.Drawing.Size(594, 504);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.Controls.Add(sifra_zaposlenikaLabel);
@@ -477,7 +489,8 @@
             this.Controls.Add(oIBLabel);
             this.Controls.Add(this.oIBTextBox);
             this.Controls.Add(this.korisnikBindingNavigator);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "NoviKorisnik";
             this.Text = "NoviKorisnik";
             this.Load += new System.EventHandler(this.NoviKorisnik_Load);
@@ -486,6 +499,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.korisnikBindingNavigator)).EndInit();
             this.korisnikBindingNavigator.ResumeLayout(false);
             this.korisnikBindingNavigator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -522,5 +536,6 @@
         private System.Windows.Forms.TextBox sifra_zaposlenikaTextBox;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
