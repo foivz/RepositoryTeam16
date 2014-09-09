@@ -170,3 +170,6 @@ C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\Aplikacija\Aplikacij
 C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\Aplikacija\AplikacijaPI\obj\Debug\AplikacijaPI.Properties.Resources.resources
 C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\Aplikacija\AplikacijaPI\obj\Debug\AplikacijaPI.Rad.resources
 C:\Users\Bernarda\Documents\GitHub\RepositoryTeam16\Projekt\Aplikacija\AplikacijaPI\obj\Debug\AplikacijaPI.csproj.GenerateResource.Cache
+C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\Projekt\Aplikacija\AplikacijaPI\bin\Debug\AplikacijaPI.exe.config
+C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\Projekt\Aplikacija\AplikacijaPI\obj\Debug\AplikacijaPI.exe
+C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\Projekt\Aplikacija\AplikacijaPI\obj\Debug\AplikacijaPI.pdb
