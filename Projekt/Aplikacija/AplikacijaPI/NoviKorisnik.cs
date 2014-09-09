@@ -60,6 +60,13 @@ namespace AplikacijaPI
             this.tableAdapterManager.UpdateAll(this.t16_DBDataSet);
         }
 
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            FrmUnosKorisnikaVozila unos = new FrmUnosKorisnikaVozila();
+            unos.Show();
+            this.Close();
+        }
+
         
 
     }
