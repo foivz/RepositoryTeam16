@@ -1,0 +1,5 @@
+select odjel.naziv, projekti.naziv, narucitelji.naziv from odjel, projekti, narucitelji, radovi where radovi.odjel = odjel.sifra and radovi.projekt = projekti.sifra and radovi.narucitelj = narucitelji.sifra;
+
+select o1.naziv as nadredjen, o2.naziv as podredjen from odjel o1, odjel o2 where o1.sifra = o2.nadredjen;
+
+select o1.naziv from odjel o1, odjel o2, radovi where radovi.odjel = o2.sifra and o2.nadredjen = o1.sifra;

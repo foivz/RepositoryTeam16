@@ -1,0 +1,19 @@
+create function provjera_projekata() returns trigger
+as $$
+declare
+broj_projekata integer;
+
+begin
+
+select count(projekt) into broj_projekata from radovi where odjel = new.odjel;
+
+if(broj_projekata = 3) then
+        raise exception 'Previse projekata za uneseni odjel!';
+end if;
+
+return new;
+end;
+$$ language plpgsql;
+
+create trigger provjera_odjela_i_projekata
+before insert on radovi for each row execute procedure provjera_projekata();
