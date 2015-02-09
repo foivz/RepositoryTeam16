@@ -32,8 +32,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -105,6 +108,12 @@
     <Compile Include="FrmUnosKorisnikaVozila.Designer.cs">
       <DependentUpon>FrmUnosKorisnikaVozila.cs</DependentUpon>
     </Compile>
+    <Compile Include="korisnickiPodaci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="korisnickiPodaci.Designer.cs">
+      <DependentUpon>korisnickiPodaci.cs</DependentUpon>
+    </Compile>
     <Compile Include="NoviKorisnik.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -165,6 +174,9 @@
     <EmbeddedResource Include="FrmUnosKorisnikaVozila.resx">
       <DependentUpon>FrmUnosKorisnikaVozila.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="korisnickiPodaci.resx">
+      <DependentUpon>korisnickiPodaci.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="NoviKorisnik.resx">
       <DependentUpon>NoviKorisnik.cs</DependentUpon>
     </EmbeddedResource>
@@ -184,6 +196,7 @@
     <EmbeddedResource Include="Rad.resx">
       <DependentUpon>Rad.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

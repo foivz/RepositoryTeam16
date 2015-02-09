@@ -229,7 +229,7 @@
             this.dataGridViewTextBoxColumn7});
             this.radni_nalogDataGridView.DataSource = this.radni_nalogBindingSource;
             this.radni_nalogDataGridView.Location = new System.Drawing.Point(51, 123);
-            this.radni_nalogDataGridView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radni_nalogDataGridView.Margin = new System.Windows.Forms.Padding(4);
             this.radni_nalogDataGridView.Name = "radni_nalogDataGridView";
             this.radni_nalogDataGridView.Size = new System.Drawing.Size(991, 271);
             this.radni_nalogDataGridView.TabIndex = 1;
@@ -280,7 +280,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(959, 446);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 2;
@@ -306,7 +306,7 @@
             this.Controls.Add(this.radni_nalogDataGridView);
             this.Controls.Add(this.radni_nalogBindingNavigator);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmPregledRadnihNaloga";
             this.Text = "FrmPregledRadnihNaloga";
             this.Load += new System.EventHandler(this.FrmPregledRadnih_Load);

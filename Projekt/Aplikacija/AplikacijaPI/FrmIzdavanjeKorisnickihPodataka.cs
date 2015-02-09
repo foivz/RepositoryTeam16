@@ -30,5 +30,12 @@ namespace AplikacijaPI
             this.korisnikTableAdapter.Fill(this.t16_DBDataSet.Korisnik);
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            korisnickiPodaci nova = new korisnickiPodaci();
+            nova.Show();
+
+        }
     }
 }
