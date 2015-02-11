@@ -144,6 +144,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>T16_DBDataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Upiti.cs" />
     <EmbeddedResource Include="FrmGlavniizbornikKlijent.resx">
       <DependentUpon>FrmGlavniizbornikKlijent.cs</DependentUpon>
     </EmbeddedResource>

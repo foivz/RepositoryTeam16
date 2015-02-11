@@ -38,10 +38,9 @@
             // 
             // btnPrijava
             // 
-            this.btnPrijava.Location = new System.Drawing.Point(61, 112);
-            this.btnPrijava.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPrijava.Location = new System.Drawing.Point(46, 91);
             this.btnPrijava.Name = "btnPrijava";
-            this.btnPrijava.Size = new System.Drawing.Size(141, 49);
+            this.btnPrijava.Size = new System.Drawing.Size(106, 40);
             this.btnPrijava.TabIndex = 1;
             this.btnPrijava.Text = "Prijava";
             this.btnPrijava.UseVisualStyleBackColor = true;
@@ -49,10 +48,9 @@
             // 
             // btnIzlaz
             // 
-            this.btnIzlaz.Location = new System.Drawing.Point(277, 112);
-            this.btnIzlaz.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnIzlaz.Location = new System.Drawing.Point(208, 91);
             this.btnIzlaz.Name = "btnIzlaz";
-            this.btnIzlaz.Size = new System.Drawing.Size(127, 52);
+            this.btnIzlaz.Size = new System.Drawing.Size(95, 42);
             this.btnIzlaz.TabIndex = 2;
             this.btnIzlaz.Text = "Izlaz";
             this.btnIzlaz.UseVisualStyleBackColor = true;
@@ -64,9 +62,8 @@
             this.picBoxNaziv.ErrorImage = ((System.Drawing.Image)(resources.GetObject("picBoxNaziv.ErrorImage")));
             this.picBoxNaziv.Image = global::AplikacijaPI.Properties.Resources.Bez_naslova;
             this.picBoxNaziv.Location = new System.Drawing.Point(-1, 0);
-            this.picBoxNaziv.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picBoxNaziv.Name = "picBoxNaziv";
-            this.picBoxNaziv.Size = new System.Drawing.Size(498, 359);
+            this.picBoxNaziv.Size = new System.Drawing.Size(374, 292);
             this.picBoxNaziv.TabIndex = 3;
             this.picBoxNaziv.TabStop = false;
             this.picBoxNaziv.Click += new System.EventHandler(this.picBoxNaziv_Click);
@@ -77,24 +74,27 @@
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Comic Sans MS", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.textBox1.Location = new System.Drawing.Point(61, 12);
+            this.textBox1.Location = new System.Drawing.Point(46, 10);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(343, 56);
+            this.textBox1.Size = new System.Drawing.Size(257, 45);
             this.textBox1.TabIndex = 4;
             this.textBox1.Text = "Autoservis SNM";
             // 
             // FrmPocetna
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(495, 359);
+            this.ClientSize = new System.Drawing.Size(371, 292);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnIzlaz);
             this.Controls.Add(this.btnPrijava);
             this.Controls.Add(this.picBoxNaziv);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.KeyPreview = true;
             this.Name = "FrmPocetna";
             this.Text = "FrmPocetna";
+            this.Load += new System.EventHandler(this.FrmPocetna_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FrmPocetna_KeyDown_1);
             ((System.ComponentModel.ISupportInitialize)(this.picBoxNaziv)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -35,8 +35,9 @@ namespace AplikacijaPI
             {
                 //Your insert code here
                 string KorIme = comboBox1.Text;
-                string lozinka = Convert.ToString(Baza.Instance.DohvatiVrijednost("select lozinka from Korisnik where korisnicko_ime='"+KorIme+"';"));
-                string tip = Convert.ToString(Baza.Instance.DohvatiVrijednost("select tip_korisnika from Korisnik where korisnicko_ime='" + KorIme + "';"));
+                Upiti u = new Upiti(KorIme);
+                string lozinka = u.ProvjeraLozinke();
+                string tip = u.ProvjeraTipa();
                 string loz = Convert.ToString(txtLoz.Text);
             
                 if (loz == lozinka && int.Parse(tip)==1)
