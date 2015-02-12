@@ -191,6 +191,6 @@ C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\Projekt\Aplikacija\Aplikacij
 C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\Projekt\Aplikacija\AplikacijaPI\obj\Debug\AplikacijaPI.Properties.Resources.resources
 C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\Projekt\Aplikacija\AplikacijaPI\obj\Debug\AplikacijaPI.Rad.resources
 C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\Projekt\Aplikacija\AplikacijaPI\obj\Debug\AplikacijaPI.csproj.GenerateResource.Cache
-C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\Projekt\Aplikacija\AplikacijaPI\obj\Debug\AplikacijaPI.korisnickiPodaci.resources
 C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\Projekt\Aplikacija\AplikacijaPI\obj\Debug\RdlCompile.cache
 C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\Projekt\Aplikacija\AplikacijaPI\obj\Debug\RdlCompile.compiled
+C:\Users\Korisnik\Documents\GitHub\RepositoryTeam16\Projekt\Aplikacija\AplikacijaPI\obj\Debug\AplikacijaPI.FrmIspisKorisnickihPodataka.resources

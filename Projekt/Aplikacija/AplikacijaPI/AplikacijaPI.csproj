@@ -66,6 +66,12 @@
     <Compile Include="FrmGlavniIzbornikRadionica.Designer.cs">
       <DependentUpon>FrmGlavniIzbornikRadionica.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmIspisKorisnickihPodataka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmIspisKorisnickihPodataka.Designer.cs">
+      <DependentUpon>FrmIspisKorisnickihPodataka.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmIzdavanjeKorisnickihPodataka.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,12 +114,6 @@
     <Compile Include="FrmUnosKorisnikaVozila.Designer.cs">
       <DependentUpon>FrmUnosKorisnikaVozila.cs</DependentUpon>
     </Compile>
-    <Compile Include="korisnickiPodaci.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="korisnickiPodaci.Designer.cs">
-      <DependentUpon>korisnickiPodaci.cs</DependentUpon>
-    </Compile>
     <Compile Include="NoviKorisnik.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -154,6 +154,9 @@
     <EmbeddedResource Include="FrmGlavniIzbornikRadionica.resx">
       <DependentUpon>FrmGlavniIzbornikRadionica.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmIspisKorisnickihPodataka.resx">
+      <DependentUpon>FrmIspisKorisnickihPodataka.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmIzdavanjeKorisnickihPodataka.resx">
       <DependentUpon>FrmIzdavanjeKorisnickihPodataka.cs</DependentUpon>
     </EmbeddedResource>
@@ -174,9 +177,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmUnosKorisnikaVozila.resx">
       <DependentUpon>FrmUnosKorisnikaVozila.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="korisnickiPodaci.resx">
-      <DependentUpon>korisnickiPodaci.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NoviKorisnik.resx">
       <DependentUpon>NoviKorisnik.cs</DependentUpon>

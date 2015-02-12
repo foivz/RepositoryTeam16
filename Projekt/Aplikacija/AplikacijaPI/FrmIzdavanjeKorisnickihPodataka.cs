@@ -33,7 +33,7 @@ namespace AplikacijaPI
 
         private void button2_Click(object sender, EventArgs e)
         {
-            korisnickiPodaci nova = new korisnickiPodaci();
+            FrmIspisKorisnickihPodataka nova = new FrmIspisKorisnickihPodataka();
             nova.Show();
 
         }

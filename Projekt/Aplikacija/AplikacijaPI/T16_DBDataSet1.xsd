@@ -113,7 +113,24 @@ SELECT ID_korisnik, OIB, tip_korisnika, ime, prezime, adresa, broj_telefona, loz
               <Mapping SourceColumn="radno_mjesto" DataSetColumn="radno_mjesto" />
               <Mapping SourceColumn="sifra_zaposlenika" DataSetColumn="sifra_zaposlenika" />
             </Mappings>
-            <Sources />
+            <Sources>
+              <DbSource ConnectionRef="T16_DBConnectionString (Settings)" DbObjectName="T16_DB.dbo.Korisnik" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="FillBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillBy">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ID_korisnik, OIB, tip_korisnika, ime, prezime, adresa, broj_telefona, lozinka, korisnicko_ime, radno_mjesto, sifra_zaposlenika FROM dbo.Korisnik</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="T16_DBConnectionString (Settings)" DbObjectName="T16_DB.dbo.Korisnik" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillBy1" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="FillBy1" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="FillBy1">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ID_korisnik, OIB, tip_korisnika, ime, prezime, adresa, broj_telefona, lozinka, korisnicko_ime, radno_mjesto, sifra_zaposlenika FROM dbo.Korisnik</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
           </TableAdapter>
         </Tables>
         <Sources />
@@ -123,7 +140,7 @@ SELECT ID_korisnik, OIB, tip_korisnika, ime, prezime, adresa, broj_telefona, loz
   <xs:element name="T16_DBDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="T16_DBDataSet1" msprop:Generator_UserDSName="T16_DBDataSet1">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="Korisnik" msprop:Generator_TableClassName="KorisnikDataTable" msprop:Generator_TableVarName="tableKorisnik" msprop:Generator_TablePropName="Korisnik" msprop:Generator_RowDeletingName="KorisnikRowDeleting" msprop:Generator_RowChangingName="KorisnikRowChanging" msprop:Generator_RowEvHandlerName="KorisnikRowChangeEventHandler" msprop:Generator_RowDeletedName="KorisnikRowDeleted" msprop:Generator_UserTableName="Korisnik" msprop:Generator_RowChangedName="KorisnikRowChanged" msprop:Generator_RowEvArgName="KorisnikRowChangeEvent" msprop:Generator_RowClassName="KorisnikRow">
+        <xs:element name="Korisnik" msprop:Generator_TableClassName="KorisnikDataTable" msprop:Generator_TableVarName="tableKorisnik" msprop:Generator_RowChangedName="KorisnikRowChanged" msprop:Generator_TablePropName="Korisnik" msprop:Generator_RowDeletingName="KorisnikRowDeleting" msprop:Generator_RowChangingName="KorisnikRowChanging" msprop:Generator_RowEvHandlerName="KorisnikRowChangeEventHandler" msprop:Generator_RowDeletedName="KorisnikRowDeleted" msprop:Generator_RowClassName="KorisnikRow" msprop:Generator_UserTableName="Korisnik" msprop:Generator_RowEvArgName="KorisnikRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="ID_korisnik" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID_korisnik" msprop:Generator_ColumnPropNameInRow="ID_korisnik" msprop:Generator_ColumnPropNameInTable="ID_korisnikColumn" msprop:Generator_UserColumnName="ID_korisnik" type="xs:int" />
